@@ -77,3 +77,21 @@ Notes
            ├── Week-2
            └── Week-3
 ```
+---
+
+### Other
+**Updating Brew in Terminal Command**
+```
+brew update  
+brew upgrade  
+brew install nvm  
+from your home folder~~~~~~~  
+code .zshrc  
+place in the .zshrc file~~~~~~~~~  
+export NVM_DIR=~/.nvm  
+source $(brew --prefix nvm)/nvm.sh  
+quit terminal, reopen~~~~~~~~~~  
+nvm --version  
+~should be 0.35.3~  
+nvm install --lts 
+```
