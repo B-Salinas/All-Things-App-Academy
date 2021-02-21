@@ -79,8 +79,9 @@ Notes
 ```
 ---
 
-### Other
-**Updating Brew in Terminal Command**
+# Other
+
+#### Updating Brew in Terminal Command
 ```
 brew update  
 brew upgrade  
