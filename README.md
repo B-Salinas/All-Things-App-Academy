@@ -43,7 +43,7 @@ Assessments
       └── Module-1
            ├── assessment-1
            ├── assessment-2
-           └──assessment-3
+           └── assessment-3
 ```
 
 # Learning Objectives
@@ -66,6 +66,14 @@ Learning-Objectives
 ```
 
 # Notes
+
+#### 2021-01-11-Cohort
+
+#### 2020-12-07-Cohort
+
+#### 2020-11-02-Cohort
+
+#### 2020-10-05-Cohort
 ```
 Notes  
  ├── 2020-12-07-Cohort
