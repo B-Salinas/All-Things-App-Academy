@@ -1,12 +1,12 @@
 # Assessments
 
-### 2021-01-11-Cohort
+#### 2021-01-11-Cohort
 ```
 Assessments
  └── 2021-01-11-Cohort
 ```
 
-### 2020-12-07-Cohort
+#### 2020-12-07-Cohort
 ```
 Assessments  
  └── 2020-12-07-Cohort
@@ -16,7 +16,7 @@ Assessments
            └── assessment-9
  ```
 
-### 2020-11-02-Cohort
+#### 2020-11-02-Cohort
 ```
 Assessments
  └── 2020-11-02-Cohort
@@ -36,7 +36,7 @@ Assessments
            └── assessment-10
  ```
 
-### 2020-10-05-Cohort
+#### 2020-10-05-Cohort
 ```    
 Assessments
  └── 2020-10-05-Cohort
@@ -68,36 +68,44 @@ Learning-Objectives
 # Notes
 
 #### 2021-01-11-Cohort
+```
+Notes
+ └── 2021-01-11-Cohort
+```
 
 #### 2020-12-07-Cohort
-
-#### 2020-11-02-Cohort
-
-#### 2020-10-05-Cohort
 ```
 Notes  
- ├── 2020-12-07-Cohort
- │    └── Module-3
- │         ├── Week-7
- │         ├── Week-8
- │         └── Week-9
- │         
- ├── 2020-11-02-Cohort
- │    ├── Module-1
- │    │    ├── Week-1
- │    │    ├── Week-2
- │    │    └── Week-3
- │    ├── Module-2 
- │    │    ├── Week-4
- │    │    ├── Week-5
- │    │    └── Week-6
- │    ├── Module-3
- │    │    ├── Week-7
- │    │    ├── Week-8
- │    │    └── Week-9
- │    └── Module-4
- │         └── Week-10
- │         
+ └── 2020-12-07-Cohort
+      └── Module-3
+           ├── Week-7
+           ├── Week-8
+           └── Week-9
+ ```
+
+#### 2020-11-02-Cohort
+```
+Notes
+ └── 2020-11-02-Cohort
+      ├── Module-1
+      │    ├── Week-1
+      │    ├── Week-2
+      │    └── Week-3
+      ├── Module-2 
+      │    ├── Week-4
+      │    ├── Week-5
+      │    └── Week-6
+      ├── Module-3
+      │    ├── Week-7
+      │    ├── Week-8
+      │    └── Week-9
+      └── Module-4
+           └── Week-10
+ ```
+
+#### 2020-10-05-Cohort
+```    
+Notes
  └── 2020-10-05-Cohort
       └── Module-1
            ├── Week-1
