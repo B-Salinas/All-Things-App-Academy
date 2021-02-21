@@ -7,3 +7,26 @@ Build a calculator function that takes in three arguments: `num1`, `operator`, a
 If the operator is invalid, return `NaN`.
 
 This problem is worth 5 points. It is possible to get partial points on this problem.
+
+---
+
+```js
+function calculator(num1, operator, num2) {
+  if (operator === "+") {
+    return num1 + num2;
+  
+  } else if (operator === "-") {
+    return num1 - num2;
+    
+  } else if (operator === "*") {
+    return num1 * num2;
+  
+  } else if (operator === "/") {
+    return num1 / num2;
+  
+  } else {
+    return NaN;
+  }
+}
+
+```
