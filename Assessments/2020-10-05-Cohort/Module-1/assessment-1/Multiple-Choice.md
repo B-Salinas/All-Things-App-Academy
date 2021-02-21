@@ -1,4 +1,4 @@
-```
+```js
 !(A && B)
 ```
 
@@ -10,7 +10,7 @@
 
 ---
 
-```
+```js
 console.log(3 + 4 * 5);
 ```
 
@@ -30,7 +30,7 @@ console.log(3 + 4 * 5);
 
 ---
 
-```
+```js
 let x = 5;
 x++;
 x - 2;
@@ -46,7 +46,7 @@ console.log(x);
 
 ---
 
-```
+```js
 console.log('42' == 42);
 ```
 
@@ -58,7 +58,7 @@ console.log('42' == 42);
 
 ---
 
-```
+```js
 console.log(24 % 5);
 ```
 
@@ -78,7 +78,7 @@ console.log(24 % 5);
 
 ---
 
-```
+```js
 let num = 30;
 let isPositive = num > 0;
 let isOdd = num % 2 === 1;
@@ -93,7 +93,7 @@ console.log(isPositive && isOdd);
 
 ---
 
-```
+```js
 console.log('javascript'[2]);
 ```
 
@@ -105,7 +105,7 @@ console.log('javascript'[2]);
 
 ---
 
-```
+```js
 console.log((false && true) || !false);
 ```
 
@@ -115,7 +115,7 @@ console.log((false && true) || !false);
 
 ---
 
-```
+```js
 let list = ["cat", "dog", "elephant"];
 ```
 
