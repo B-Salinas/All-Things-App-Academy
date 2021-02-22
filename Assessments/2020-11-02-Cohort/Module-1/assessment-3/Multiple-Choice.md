@@ -19,7 +19,7 @@ siren("WEE-OOO", 7); // should print "WEE-OOO", "WEE-OOO", "WEE-OOO"
 
 ---
 
-```
+```js
 let goodbye;
 ```
 
