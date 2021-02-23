@@ -14,7 +14,7 @@
 
 ---
 
-![]()
+![Binary Tree](images/example_binary_tree.png)
 
 #### 3. How many nodes does the tree in the image have?
 - [ ] 8
@@ -33,7 +33,7 @@
 
 ---
 
-![]()
+![Binary Tree](images/example_binary_tree.png)
 
 #### 5. How many leaf nodes are in the image of the tree?
 - [ ] 2
@@ -124,7 +124,7 @@
 
 ---
 
-![Question 16 Image]()
+![TCP/IP Model](images/tcp_model.svg)
 
 #### 16. What protocol does the above image model?
 - [ ] OSI
