@@ -66,7 +66,7 @@ areTheyConnected('ophelia', 'ursula')
 2. `cd` into the folder and `npm install` to install dependencies
 3. **Run the tests by typing** `npm test`. DO NOT USE THE COMMAND `mocha`.
 4. Your objective is to implement the code in each of the following JavaScript files so that when you run `npm test`, all tests pass.
-  - **01-are-they-connected.js** will contain your implementation of the search algorithm.
+    - **01-are-they-connected.js** will contain your implementation of the search algorithm.
 
 
 ## Submission
