@@ -1,0 +1,75 @@
+/* Problem 1 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Problem 2 */
+.red-rectangle {
+  height: 25px;
+  width: 50px;
+  background-color: #FF9999;
+  border: 3px solid #FF0000;
+  box-sizing: border-box;
+}
+
+/* Problem 3 */
+.outer-layer-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.yellow-box {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  box-sizing: border-box;
+  position: relative;
+  right: 35px;
+  top: 5px;
+}
+
+.black-box {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+/* Problem 4 */
+.outer-layer-4 {
+  display: flex;
+  align-items: center;
+}
+
+/* Problem 5 */
+.outer-layer-5 > p {
+  text-transform: uppercase;  
+}
+
+/* Problem 6 */
+.inner-layer-6 {
+  grid-row: 1 / 3;
+  grid-column: 3 / 4;
+}
+
+/* Problem 7 */
+.outer-layer-7 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+}
+
+/* Problem 8 */
+.outer-layer-8 {
+  overflow: hidden;
+}
+
+/* Problem 9 */
+.outer-layer-9 a {
+  display: inline-block;
+  padding: 4px;
+  margin: 4px 8px;
+}
+
+/* Problem 10 */
+.box-10.purple-10 {
+  border: 3px solid yellow;
+}
