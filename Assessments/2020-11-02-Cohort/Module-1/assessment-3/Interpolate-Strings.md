@@ -1,4 +1,4 @@
-## Interpolate Strings
+# Interpolate Strings
 
 This problem is worth 1 problem. You may receive partial credit. 
 
