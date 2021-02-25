@@ -8,8 +8,6 @@ Then, write a function `highestAverage(numsList)` that takes in a 2D array of nu
 
 This problem is worth 7 points. It is possible to get parital points on this problem.
 
----
-
 #### Solution
 
 ```js
