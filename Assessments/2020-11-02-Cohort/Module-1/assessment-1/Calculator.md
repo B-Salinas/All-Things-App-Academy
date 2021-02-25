@@ -1,4 +1,4 @@
-## Calculator
+# Calculator
 
 This problem is worth 1 point. You may receive partial credit.
 
