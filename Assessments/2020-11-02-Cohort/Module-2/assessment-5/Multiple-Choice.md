@@ -98,6 +98,8 @@ console.log(mechanical.getManufacturerName()); // -> "Bic"
 - [] none of the classes have extensive knowledge of the definitions of other classes
 - [] it improves the flexibility and reusability of a class
 
+---
+
 #### 7. From the following, choose the definition that best describes the object-oriented pillar of _encapsulation_. 
 - [] "encapsulation" is not an object-oriented pillar
 - [] "encapsulation" means to use data and methods from other objects specifically so that you can save that data to the file system, encapsulated in a file
