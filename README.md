@@ -2,45 +2,49 @@
 
 #### 2021-01-11-Cohort
 ```
-Assessments
- └── 2021-01-11-Cohort
+Assessments/
+ └── 2021-01-11-Cohort/
 ```
 
 #### 2020-12-07-Cohort
 ```
-Assessments  
- └── 2020-12-07-Cohort
-      └── Module-3
-           ├── assessment-7
+Assessments/
+ └── 2020-12-07-Cohort/
+      └── Module-3/
+           ├── assessment-7/
            │    ├── Algorithms-Problems/
            │    ├── Data-Structures-Problems/
            │    └── Multiple-Choice.md
-           ├── assessment-8
+           ├── assessment-8/
            │    ├── Graph-Project/
            │    ├── images/
            │    ├── FR-Network-Devices.md
            │    └── Multiple-Choice.md
-           └── assessment-9
+           └── assessment-9/
+                ├── AJAX-Project/
+                ├── CSS-Properties-Project/
+                ├── FR-Media-Query.md
+                └── Multiple-Choice.md
  ```
 
 #### 2020-11-02-Cohort
 ```
-Assessments
- └── 2020-11-02-Cohort
-      ├── Module-1
-      │    ├── assessment-1
-      │    ├── assessment-2
-      │    └── assessment-3
-      ├── Module-2 
-      │    ├── assessment-4
-      │    ├── assessment-5
-      │    └── assessment-6
-      ├── Module-3
-      │    ├── assessment-7
-      │    ├── assessment-8
-      │    └── assessment-9
-      └── Module-4
-           └── assessment-10
+Assessments/
+ └── 2020-11-02-Cohort/
+      ├── Module-1/
+      │    ├── assessment-1/
+      │    ├── assessment-2/
+      │    └── assessment-3/
+      ├── Module-2/
+      │    ├── assessment-4/
+      │    ├── assessment-5/
+      │    └── assessment-6/
+      ├── Module-3/
+      │    ├── assessment-7/
+      │    ├── assessment-8/
+      │    └── assessment-9/
+      └── Module-4/
+           └── assessment-10/
  ```
 
 #### 2020-10-05-Cohort
