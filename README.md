@@ -33,16 +33,39 @@ Assessments/
  └── 2020-11-02-Cohort/
       ├── Module-1/
       │    ├── assessment-1/
+      │    │    ├── Calculator.md
+      │    │    ├── FR-Asking-Questions.md
+      │    │    ├── Highest-Average.md
+      │    │    └── Multiple-Choice.md
       │    ├── assessment-2/
+      │    │    ├── Creating-Files-Project/
+      │    │    ├── Spec-Problems/
+      │    │    ├── FR-Variable-Declarations.md
+      │    │    └── Multiple-Choice.md
       │    └── assessment-3/
+      │         ├── Spec-Problems/
+      │         ├── FR-Event-Loop-Message-Queue.md
+      │         ├── FR-First-Class-Objects.md
+      │         ├── FR-Sync-Vs-Async.md
+      │         ├── Interpolate-Strings.md
+      │         └── Multiple-Choice.md
+      │
       ├── Module-2/
       │    ├── assessment-4/
+      │    │    ├── Basic-DOM-Project/
+      │    │    └── Multiple-Choice.md
       │    ├── assessment-5/
+      │    │    ├── Test-Driven-Problems/
+      │    │    ├── Create-A-Parent-Class.md
+      │    │    ├── Define-A-Class.md
+      │    │    └── Multiple-Choice.md
       │    └── assessment-6/
+      │
       ├── Module-3/
       │    ├── assessment-7/
       │    ├── assessment-8/
       │    └── assessment-9/
+      │
       └── Module-4/
            └── assessment-10/
  ```
@@ -70,14 +93,17 @@ Learning-Objectives
  │    ├── week-1.md
  │    ├── week-2.md
  │    └── week-3.md
+ │
  ├── Module-2
  │    ├── week-4.md
  │    ├── week-5.md
  │    └── week-6.md
+ │
  ├── Module-3
  │    ├── week-7.md
  │    ├── week-8.md
  │    └── week-9.md
+ │
  └── Module-4
       └── week-10.md
 ```
@@ -108,14 +134,17 @@ Notes
       │    ├── Week-1
       │    ├── Week-2
       │    └── Week-3
+      │
       ├── Module-2 
       │    ├── Week-4
       │    ├── Week-5
       │    └── Week-6
+      │
       ├── Module-3
       │    ├── Week-7
       │    ├── Week-8
       │    └── Week-9
+      │
       └── Module-4
            └── Week-10
  ```
