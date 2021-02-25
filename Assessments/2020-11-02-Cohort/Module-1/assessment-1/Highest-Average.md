@@ -1,3 +1,5 @@
+# Highest Average 
+
 This problem is worth 1 point. You may receive partial credit.
 
 First, create a function called `getAverage(nums)` which takes a single array of numbers and returns the average.
