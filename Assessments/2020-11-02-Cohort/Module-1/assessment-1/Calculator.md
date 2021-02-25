@@ -8,8 +8,6 @@ If the operator is invalid, return `NaN`.
 
 This problem is worth 5 points. It is possible to get partial points on this problem.
 
----
-
 #### Solution
 
 ```js
