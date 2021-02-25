@@ -1,6 +1,6 @@
 # Assessments
 
-#### 2021-01-11-Cohort (CURRENT)
+#### 2021-01-11-Cohort
 ```
 Assessments
  └── 2021-01-11-Cohort
@@ -12,7 +12,14 @@ Assessments
  └── 2020-12-07-Cohort
       └── Module-3
            ├── assessment-7
+           │    ├── Algorithms-Problems/
+           │    ├── Data-Structures-Problems/
+           │    └── Multiple-Choice.md
            ├── assessment-8
+           │    ├── Graph-Project/
+           │    ├── images/
+           │    ├── FR-Network-Devices.md
+           │    └── Multiple-Choice.md
            └── assessment-9
  ```
 
@@ -47,22 +54,7 @@ Assessments/
            │    └── Multiple-Choice.md
            └── assessment-2/
                 ├── Creating-Files-Project/
-                │    ├── Bianca_Salinas/
-                │    │    └── assessment-files/
-                │    │         ├── phaseOne.js
-                │    │         └── phaseTwo.js
-                │    └── README.md
                 ├── Spec-Problems/
-                │    ├── problems/
-                │    │    ├── 01-key-value-duplicates.js
-                │    │    ├── 02-most-frequent-letter.js
-                │    │    ├── 03-employee-raises.js
-                │    │    ├── 04-sales-tax.js
-                │    │    └── 05-dynamic-adder.js
-                │    ├── test/
-                │    ├── README.md
-                │    ├── package-lock.json
-                │    └── package.json
                 ├── FR-Variable-Declaration.md
                 └── Mutliple-Choice.md
 ```
