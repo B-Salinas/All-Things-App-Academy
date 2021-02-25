@@ -1,4 +1,4 @@
-## Define a Class
+# Define a Class
 
 This problem is worth 1 point. You may receive partial credit.
 
