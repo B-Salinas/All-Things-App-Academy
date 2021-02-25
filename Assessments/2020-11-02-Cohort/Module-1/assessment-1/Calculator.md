@@ -1,4 +1,4 @@
-# Calculator
+## Calculator
 
 This problem is worth 1 point. You may receive partial credit.
 
@@ -9,6 +9,8 @@ If the operator is invalid, return `NaN`.
 This problem is worth 5 points. It is possible to get partial points on this problem.
 
 ---
+
+#### Solution
 
 ```js
 function calculator(num1, operator, num2) {
