@@ -4,8 +4,6 @@
 - [] `inherits`
 - [] `instanceof`
 
----
-
 #### 2. What does _polymorphism_ mean?
 - [] "polymorphism" is the name of a comic book superhero that can change shapes and whose secret identity is "Polly Madison"
 - [x] "polymorphism" is the ability to overload or extend a parent class' methods
@@ -13,7 +11,7 @@
 - [] "polymorphism" is quite simply stated as "do one thing and do it right"
 - [] "polymorphism" provides a way for you to declare your classes without having to use the `class` keyword 
 
----
+
 
 ```js
 class Person {
@@ -48,7 +46,7 @@ console.log(maria.toString());
 - [] `this.firstName`, `this.lastName`, `this.age`, and `value`
 - [x] `this.firstName`, `this.lastName`, and `this.age`
 
----
+
 
 #### 4. Which of the following code snippets would result in a usable class named `Mother`?
 - [] `class mother {}`
@@ -56,7 +54,7 @@ console.log(maria.toString());
 - [x] `class Mother {}`
 - [] `Class Mother {}`
 
----
+
 
 ```js
 class Manufacturer {
@@ -89,7 +87,7 @@ console.log(mechanical.getManufacturerName()); // -> "Bic"
 - [x] `getManufacturerName() { return this.manufacturer.getName(); }`
 - [] `getName() { return 'Ticonderoga'; }`
 
----
+
 
 #### 6. How might you identify tightly coupled classes?
 - [x] changes to one class affect the functionality of another related class
@@ -98,7 +96,7 @@ console.log(mechanical.getManufacturerName()); // -> "Bic"
 - [] none of the classes have extensive knowledge of the definitions of other classes
 - [] it improves the flexibility and reusability of a class
 
----
+
 
 #### 7. From the following, choose the definition that best describes the object-oriented pillar of _encapsulation_. 
 - [] "encapsulation" is not an object-oriented pillar
@@ -106,7 +104,7 @@ console.log(mechanical.getManufacturerName()); // -> "Bic"
 - [] "encapsulation" drives the design of classes by requiring that any classes that inherit from a class must have the same invariants as the parent class
 - [x] "encapsulation" puts the behavior and data together behind methods that hide the specific implementation so that code that uses it doesn't need to worry about the details of it
 
----
+
 
 #### 8. The Law of Demeter can be referred to as which of the following? 
 - [] "the one-variable rule"
@@ -116,7 +114,7 @@ console.log(mechanical.getManufacturerName()); // -> "Bic"
 - [] "the one ring to rull them all rule"
 - [] "the one-method rule"
 
----
+
 
 #### 9. Which of the following is not a way to approach OOP design?
 - [] identify potential classes
@@ -125,7 +123,7 @@ console.log(mechanical.getManufacturerName()); // -> "Bic"
 - [] write code with the intention of being reusable and easily extendable 
 - [] specify properties and methods 
 
----
+
 
 #### 10. Which of the following is true about inheritence? 
 - [] inheritence allows a parent class to extend the expected behavior of a child class
