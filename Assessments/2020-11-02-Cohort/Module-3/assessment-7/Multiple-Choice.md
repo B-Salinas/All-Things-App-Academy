@@ -5,7 +5,7 @@
 - [ ] loglinear/quasilinear
 
 #### 2. Which of the following four complexity classes has the _best performance_ for a large input?
-- [ ] `O(n<sup>3</sup>)` - polynomial
+- [ ] O(n<sup>3</sup>) - polynomial
 - [x] `O(1)` - constant
 - [ ] `O(n!)` - factorial
 - [ ] `O(n)` - linear
