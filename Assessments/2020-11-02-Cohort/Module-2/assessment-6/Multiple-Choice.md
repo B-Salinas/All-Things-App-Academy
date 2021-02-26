@@ -54,7 +54,7 @@
 
 ---
 
-![TDD Workflow](tdd-workflow.png)
+![TDD Workflow](images/tdd-workflow.png)
 
 #### 8. Given the above image as reference, identify the steps of the TDD workflow _in order_:
 - [ ] Red, Green, Rework
