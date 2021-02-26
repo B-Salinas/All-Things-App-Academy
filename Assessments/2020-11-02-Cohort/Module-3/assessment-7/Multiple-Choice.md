@@ -4,11 +4,15 @@
 - [ ] linear
 - [ ] loglinear/quasilinear
 
+---
+
 #### 2. Which of the following four complexity classes has the _best performance_ for a large input?
 - [ ] O(n<sup>3</sup>) - polynomial
-- [x] `O(1)` - constant
-- [ ] `O(n!)` - factorial
-- [ ] `O(n)` - linear
+- [x] O(1) - constant
+- [ ] O(n!) - factorial
+- [ ] O(n) - linear
+
+---
 
 #### 3. Which of the following abstract data types is designed as a first-in, first-out (FIFO) data structure?
 - [ ] stack
@@ -17,6 +21,8 @@
 - [ ] list
 - [ ] set
 - [ ] binary tree
+
+---
 
 ```js
 function whatSortAmI(array) {
@@ -41,6 +47,8 @@ function whatSortAmI(array) {
 - [x] quick sort
 - [ ] merge sort
 
+---
+
 #### 5. What is the expected time complexity for inserting a value onto a stack?
 - [ ] logarithmic time
 - [x] constant time
@@ -56,30 +64,41 @@ function find(array, term) {
 }
 ```
 
+---
+
 #### 6. With respect to the above function `find`, to what complexity class does it belong? 
 - [ ] polynomial
 - [ ] exponential
 - [x] linear
 - [ ] constant
 
+---
+
 #### 7. Which of the following five complexity classes has the _best performance_ for a larger input?
-- [ ] `O(2^n)` - exponential
-- [ ] `O(n^100)` - polynomial
-- [ ] `O(n!)` - factorial
-- [ ] `O(n^2)` - polynomial
-- [x] `O(n*log(n))` - loglinear/quasilinear
+- [ ] O(2<sup>n</sup>) - exponential
+- [ ] O(n<sup>100</sup>) - polynomial
+- [ ] O(n!) - factorial
+- [ ] O(n<sup>2</sup>) - polynomial
+- [x] O(n*log(n)) - loglinear/quasilinear
+
+---
 
 #### 8. Which of the following complexity classes is the "linear" complexity class?
-- [x] `O(n)`
-- [ ] `O(1)`
-- [ ] `O(n^2)`
-- [ ] `O(n^3)`
+- [x] O(n)
+- [ ] O(1)
+- [ ] O(n<sup>2</sup>)
+- [ ] O(n<sup>3</sup>)
+
+---
 
 #### 9. Which of the following complexity classes does the unsimplified `T(n^3 + n*log(n))` simplify to?
-- [x] `O(n^3)`
-- [ ] `O(n!)`
-- [ ] `O(n*log(n))`
-- [ ] `O(1)`
+- [x] O(n<sup>3</sup>)
+- [ ] O(n!)
+- [ ] O(n*log(n))
+- [ ] O(1)
+
+---
+
 
 ```js
 function sort(array, term) {
@@ -102,6 +121,8 @@ function sort(array, term) {
 - [ ] exponential
 - [x] polynomial
 - [ ] constant
+
+---
 
 #### 11. Which of the following abstract data types is designed as a last-in, first-out (LIFO) data structure?
 - [x] stack
