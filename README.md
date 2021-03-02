@@ -60,14 +60,34 @@ Assessments/
       │    │    ├── Define-A-Class.md
       │    │    └── Multiple-Choice.md
       │    └── assessment-6/
+      │         ├── Test-Driven-Problems/
+      │         ├── images/
+      │         └── Multiple-Choice.md
       │
       ├── Module-3/
       │    ├── assessment-7/
+      │    │    ├── Algorithms-Problems/
+      │    │    ├── Data-Structure-Problems/
+      │    │    └── Multiple-Choice.md
       │    ├── assessment-8/
+      │    │    ├── Graph-Project/
+      │    │    ├── images/
+      │    │    ├── FR-Network-Devices.md
+      │    │    └── Multiple-Choice.md
       │    └── assessment-9/
+      │         ├── AJAX-Project/
+      │         ├── CSS-Properties-Project/
+      │         ├── FR-Media-Query.md
+      │         └── Multiple-Choice.md
       │
       └── Module-4/
            └── assessment-10/
+                ├── SQL-Project/
+                ├── Sequelize-Project/
+                ├── images/
+                ├── FR-Define-A-Table.md
+                ├── FR-Unique-Constraint.md
+                └── Multiple-Choice.md
  ```
 
 #### 2020-10-05-Cohort
