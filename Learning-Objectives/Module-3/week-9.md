@@ -43,3 +43,45 @@
 #### 5. Identify which HTML elements have a default "inline" display value
 #### 6. Identify which HTML elements have a default "block" display value
 #### 7. Describe and use z-index positioning of elements
+
+# Flexible Box Model 
+
+#### 1. Explain how flexible box layout lays out elements
+#### 2. Use the `flex` property to specify grow, shrink, and basis values.
+#### 3. Use the `flex-direction` property to direct the layout of the content
+#### 4. Use the `flex-wrap` property to affect the wrap of content layout within an element using flexible box layout
+#### 5. Use `align-self`, `justify-content`, and `align-items` to change the way that children elements are laid out in a flexible box layout
+#### 6. Use the `order` property to change the order in which elements will appear in a flexible box layout
+
+# Grid Layout
+
+#### 1. Explain how grid layout lays out elements
+#### 2. Use the `grid-template-columns`, `grid-template-rows`, and `grid-template` properties to specify the layout of the grid using relative and absolute measures
+#### 3. Use `grid-template-areas` to label areas of a grid and `grid-area` to assign an element to the area
+#### 4. Use `grid-column-gap`, `grid-row-gap`, and `grid-gap` to set the "gutter" areas between elements in a grid layout
+#### 5. Use `grid-column-start`/`grid-column-end` and `grid-row-start`/`grid-row-end` to create spans across multiple columns and rows with positive integers, negative integers, and in conjunction with the "span" operator
+#### 6. Explain and use the shorthand versions of `grid-column` and `grid-row` to define how an element will span a grid layout
+#### 7. Use the `order` property to change the default order in which items are laid out
+#### 8. Explain and use the "fr" unit of measure
+#### 9. Use `justify-items`, `align-items`, `justify-content` and `align-content` to layout items in each grid area
+
+# Interactivity
+
+#### 1. Use the "hover" pseudo-class to be able to make changes to elements when the device pointer is over an element
+#### 2. Describe and use the `transition` property show animated changes due to class and pseudo-class CSS rule application
+#### 3. Describe and use the `overflow`, `overflow-x`, and `overflow-y` properties to effect clipping and scrolling on elements
+
+# CSS Maintainability
+
+#### 1. Describe what Block means in BEM
+#### 2. Describe what Element means in BEM
+#### 3. Describe what Modifier means in BEM
+#### 4. Identify CSS class names that follow the BEM principle
+
+# AJAX
+
+#### 1. Explain what an AJAX request is
+#### 2. Identifying the advantages of using an AJAX request.
+#### 3. Identify what the acronym AJAX means and how it relates to modern Web programming
+#### 4. Describe the different steps in an AJAX request/response cycle
+#### 5. Fully use the `fetch` API to make dynamic Web pages without refreshing the page
