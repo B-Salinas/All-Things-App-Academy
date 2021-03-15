@@ -1,4 +1,12 @@
+# Getting Started 
+Open your terminal, start the PostgreSQL command line client with the command `psql postgres`.
 
+If your terminal looks like this: 
+```
+postgres=#
+```
+
+You did it!
 
 # Creating Users
 
@@ -18,6 +26,8 @@ SUPERUSER;
 ```
 **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
+If you typed everything correctly, you will see the message `CREATE ROLE`.
+
 ### Naming a User
 Usernames should contain only lowercase letters, numbers, and underscroes. They should NOT contain spaces, dashes, or any other character.
 
@@ -26,3 +36,12 @@ Usernames should contain only lowercase letters, numbers, and underscroes. They 
 | appacademy     | Ned Ruggeri         |
 | patel_kush_12  | melvin-howard-torme |
 | bdorsey        | b.d.o.r.s.e.y       |
+
+# Continue
+
+Quite your session by typing `\q` into the postgres terminal.
+```
+postgres=# \q
+```
+
+
