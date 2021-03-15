@@ -219,7 +219,7 @@
 #### 28. Which of the following are valid values for the `display` property for CSS?
 - [x] grid
 - [ ] sticky
-- [x] flexbox
+- [ ] flexbox
 - [x] inline-block
 - [ ] fixed
 - [x] flex
