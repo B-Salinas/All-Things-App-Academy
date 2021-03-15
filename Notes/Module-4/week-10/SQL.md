@@ -13,14 +13,14 @@ Usernames should contain only lowercase letters, numbers, and underscroes. They 
 
 # Creating Users
 
-### Normal user
+### Normal User
 ```
 CREATE USER username_goes_here
 WITH
 PASSWORD 'password_inbetween_single_quotes';
 ```
 
-### Super Users
+### Super User
 ```
 CREATE USER super_username_goes_here
 WITH 
