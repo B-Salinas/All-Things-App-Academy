@@ -18,7 +18,7 @@ SUPERUSER;
 ```
 **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
-#### Naming a User
+### Naming a User
 Usernames should contain only lowercase letters, numbers, and underscroes. They should NOT contain spaces, dashes, or any other character.
 
 **Good Usernames**
