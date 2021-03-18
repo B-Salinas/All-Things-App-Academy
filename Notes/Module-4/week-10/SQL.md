@@ -202,8 +202,12 @@ Use JOIN to retrieve rows from multiple tables
 ```sql
 SELECT * 
 FROM «table 1 name»
-INNER JOIN «table 2 name» ON (table_1_column_name.foreign_key_id = table_2_column_name.id);
+INNER JOIN «table 2 name» ON (table_1_column_name.foreign_key_id = table_2_column_name.primary_key_id);
 ```
+
+Here is more [in-depth documentation](https://www.postgresql.org/docs/8.3/tutorial-join.html) of JOIN. 
+
+> **Note:** Aside from INNER JOIN, there are different types of JOIN operators that can be found [here](https://www.postgresqltutorial.com/postgresql-joins/). 
 
 # Writing and Running Seed Files 
 
