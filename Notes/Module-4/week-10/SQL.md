@@ -6,7 +6,7 @@ postgres=#
 
 ## Creating Users
 
-==**Note:** ALL SQL statements in PostgreSQL end with a semicolon.==
+**Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
 #### Normal User
 ```
