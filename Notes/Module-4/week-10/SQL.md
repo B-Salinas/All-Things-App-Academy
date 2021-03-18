@@ -196,3 +196,8 @@ VALUES
 (column 1 value, column 2 value, etc)
 ...etc;
 ```
+
+## INNER JOIN
+
+# Writing and Running Seed Files 
+
