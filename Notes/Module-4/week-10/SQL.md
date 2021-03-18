@@ -34,12 +34,10 @@ Usernames should contain only lowercase letters, numbers, and underscroes. They 
 | patel_kush_12  | melvin-howard-torme |
 | bdorsey        | b.d.o.r.s.e.y       |
 
-# Continue
+# SQL Commands
 
-Quite your session by typing `\q` into the postgres terminal.
+You can quit your psql session anytime by typing `\q` into the terminal:
 ```
 postgres=# \q
 ```
-
-# SQL Commands
 
