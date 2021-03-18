@@ -1,12 +1,8 @@
 # Getting Started 
-Open your terminal, start the PostgreSQL command line client with the command `psql postgres`.
-
-If your terminal looks like this: 
+Open your terminal, start the PostgreSQL command line client with the command `psql postgres`. Your terminal should look like this: 
 ```
 postgres=#
 ```
-
-You did it!
 
 ## Creating Users
 
@@ -24,7 +20,7 @@ WITH
 PASSWORD 'super_user_password_inbetween_single_quotes'
 SUPERUSER;
 ```
-**Note:** ALL SQL statements in PostgreSQL end with a semicolon.
+> **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
 If you typed everything correctly, you will see the message `CREATE ROLE`.
 
