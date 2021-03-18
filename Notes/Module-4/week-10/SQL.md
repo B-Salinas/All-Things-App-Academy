@@ -47,3 +47,15 @@ postgres=# \q
 b-salinas@Bs-MacBook-Pro ~ %
 ```
 
+## SELECT
+Select **ALL** rows in a given table using `SELECT *`
+```
+SELECT *
+FROM «table name»
+```
+Select a specific column/s using `SELECT «column name»`
+```
+SELECT «column 1, column 2, etc»
+FROM «table name»
+```
+
