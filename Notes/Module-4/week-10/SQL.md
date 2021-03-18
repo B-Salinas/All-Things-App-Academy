@@ -6,6 +6,8 @@ postgres=#
 
 ## Creating Users
 
+**Note:** ALL SQL statements in PostgreSQL end with a semicolon.
+
 #### Normal User
 ```
 CREATE USER username_goes_here
@@ -20,11 +22,10 @@ WITH
 PASSWORD 'super_user_password_inbetween_single_quotes'
 SUPERUSER;
 ```
-> **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
-If you typed everything correctly, you will see the message `CREATE ROLE`.
+You should see `CREATE ROLE`, if everything was typed correctly.
 
-#### Naming a User
+### Naming a User
 Usernames should contain only lowercase letters, numbers, and underscroes. They should NOT contain spaces, dashes, or any other character.
 
 | Good Usernames | Bad Usernames       |
@@ -39,5 +40,6 @@ Quite your session by typing `\q` into the postgres terminal.
 ```
 postgres=# \q
 ```
+
 # SQL Commands
 
