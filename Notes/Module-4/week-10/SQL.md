@@ -11,7 +11,7 @@ b-salinas=#
 
 ## Creating Users
 
-**Note:** ALL SQL statements in PostgreSQL end with a semicolon.
+> **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
 #### Normal User
 ```sql
@@ -144,3 +144,5 @@ The wildcard character (`%`) is used to substitute one or more characters in a s
 | `%dog`  | yes           | yes              | no                  | no                  |
 | `dog%`  | yes           | no               | yes                 | no                  |
 | `%dog%` | yes           | yes              | yes                 | yes                 |
+
+> **Note:** Other wildcard characters can be found [here](https://www.w3schools.com/sql/sql_wildcards.asp).
