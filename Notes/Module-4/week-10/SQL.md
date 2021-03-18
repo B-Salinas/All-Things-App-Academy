@@ -1,7 +1,12 @@
 # Getting Started 
-Open your terminal, start the PostgreSQL command line client with the command `psql postgres`. Your terminal should look like this: 
+Open your terminal, start the PostgreSQL command line client with `psql postgres`. Your terminal should look like this: 
 ```
 postgres=#
+```
+
+You can also prompt the PostgreSQL command line client with just `psql`, which will take you to your user's database.
+```
+b-salinas=#
 ```
 
 ## Creating Users
@@ -39,5 +44,6 @@ Usernames should contain only lowercase letters, numbers, and underscroes. They 
 You can quit your psql session anytime by typing `\q` into the terminal:
 ```
 postgres=# \q
+b-salinas@Bs-MacBook-Pro ~ %
 ```
 
