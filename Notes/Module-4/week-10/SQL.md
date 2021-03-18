@@ -39,7 +39,7 @@ Usernames should contain only lowercase letters, numbers, and underscroes. They 
 | patel_kush_12  | melvin-howard-torme |
 | bdorsey        | b.d.o.r.s.e.y       |
 
-# SQL Commands
+# SQL Basic Commands
 
 You can quit your psql session anytime by typing `\q` into the terminal:
 ```sql
@@ -117,3 +117,20 @@ LIMIT 100 OFFSET 100;
 ```
 
 This would return rows 101 - 200. It still _limits_ the total number of rows to 100, but it starts with the 100th row instead of the 1st row. 
+
+# SQL Operators
+An SQL operator is a word or character that is used inside a WHERE clause to perform comparisons or arithmetic operations. 
+
+### Logical Operators
+| Operator | Description                                                   |
+|----------|---------------------------------------------------------------|
+| ALL      | TRUE if all of the subquery values meet the condition.        |
+| AND      | TRUE if all the conditions separated by AND are TRUE.         |
+| ANY      | TRUE if any of the subquery values meet the condition.        |
+| BETWEEN  | TRUE if the operand is within the range of comparisons.       |
+| EXISTS   | TRUE if the subquery returns one or more records.             |
+| IN       | TRUE if the operand is equal to one of a list of expressions. |
+| LIKE     | TRUE if the operand matches a pattern (accepts "wildcards").  |
+| NOT      | Displays a record if the condition(s) is NOT TRUE.            |
+| OR       | TRUE if any of the conditions separated by OR is TRUE.        |
+| SOME     | TRUE if any of the subquery values meet the condition.        |
