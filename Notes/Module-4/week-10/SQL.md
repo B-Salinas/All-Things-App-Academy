@@ -48,14 +48,27 @@ b-salinas@Bs-MacBook-Pro ~ %
 ```
 
 ## SELECT
-Select **ALL** rows in a given table using `SELECT *`
+Select **ALL** rows in a given table using `SELECT *`/
 ```sql
 SELECT *
-FROM «table name»
+FROM «table name»;
 ```
-Select a specific column/s using `SELECT «column name»`
+Select a specific column/s using `SELECT «column name»`.
 ```sql
 SELECT «column 1, column 2, etc»
-FROM «table name»
+FROM «table name»;
 ```
 
+## WHERE
+The simplest WHERE clause finds a row by a single column value.
+```
+SELECT «column 1, column 2, etc»
+FROM «table name»
+WHERE «column name» = 'value/condition';
+```
+A WHERE clause can also be used to check for a list of values.
+```
+SELECT «column 1, column 2, etc»
+FROM «table name»
+WHERE «column name» IN ('value/condition 1', 'value/condition 2', etc);
+```
