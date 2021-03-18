@@ -169,3 +169,30 @@ The wildcard character (`%`) is used to substitute one or more characters in a s
 | `!<`     | Not less than            | `a !< b` |
 | `!>`     | Not greater than         | `a !> b` |
 
+# SQL Advanced Commands
+
+## INSERT
+We can insert a new table row using the following INSERT statement
+```sql
+INSERT INTO «table name» («column 1 name, column 2 name»)
+VALUES
+(column 1 value, column 2 value);
+```
+
+If you do not specify which columns our new data is being inserted to, make sure to INSERT data into the entire row length.
+```sql
+INSERT INTO «table name with 5 columns» 
+VALUES
+(column 1 value, column 2 value, column 3 value, column 4 value, column 5 value);
+```
+
+You can also insert multiple rows at once, to prevent you from writing multiple INSERT statements (you can choose to specifiy which particular columns as well). 
+```sql
+INSERT INTO «table name»
+VALUES
+(column 1 value, column 2 value, etc);
+(column 1 value, column 2 value, etc);
+(column 1 value, column 2 value, etc);
+(column 1 value, column 2 value, etc)
+...etc;
+```
