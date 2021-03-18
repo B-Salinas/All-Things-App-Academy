@@ -146,3 +146,12 @@ The wildcard character (`%`) is used to substitute one or more characters in a s
 | `%dog%` | yes           | yes              | yes                 | yes                 |
 
 > **Note:** Other wildcard characters can be found [here](https://www.w3schools.com/sql/sql_wildcards.asp).
+
+### Arithmetic Operators
+| Operator | Meaning                     | Syntax  |
+|----------|-----------------------------|---------|
+| `+`      | Addition                    | `a + b` |
+| `-`      | Subtraction                 | `a - b` |
+| `*`      | Multiplication              | `a * b` |
+| `/`      | Division                    | `a / b` |
+| `%`      | Modulus (returns remainder) | `a % b` |
