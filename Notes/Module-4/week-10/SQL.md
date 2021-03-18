@@ -47,7 +47,7 @@ postgres=# \q
 b-salinas@Bs-MacBook-Pro ~ %
 ```
 
-## SELECT
+### SELECT
 Select **ALL** rows in a given table using `SELECT *`/
 ```sql
 SELECT *
@@ -60,7 +60,7 @@ SELECT «column 1, column 2, etc»
 FROM «table name»;
 ```
 
-## WHERE
+### WHERE
 The simplest WHERE clause finds a row by a single column value.
 ```sql
 SELECT «column 1, column 2, etc»
@@ -82,7 +82,7 @@ FROM «table name»
 WHERE «column name» BETWEEN «value 1» AND «value 2»;
 ```
 
-## ORDER BY
+### ORDER BY
 You can specify the order in which you get back data, say ASCENDING...
 ```sql
 SELECT name, «other column name»
@@ -97,7 +97,7 @@ FROM «table name»
 ORDER BY name DESC;
 ```
 
-# LIMIT 
+### LIMIT 
 You can limit the number of rows returned using LIMIT.
 ```sql
 SELECT name, «other column name»
@@ -106,7 +106,7 @@ ORDER BY name
 LIMIT 100;
 ```
 
-# OFFSET 
+### OFFSET 
 The LIMIT command above would return the first 100 rows that would meet the specified criteria. Let's say you want to see the _next_ 100 rows, you can do this using OFFSET after the LIMIT clause. 
 
 ```sql
