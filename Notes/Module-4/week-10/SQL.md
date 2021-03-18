@@ -190,14 +190,20 @@ You can also insert multiple rows at once, to prevent you from writing multiple 
 ```sql
 INSERT INTO «table name»
 VALUES
-(column 1 value, column 2 value, etc);
-(column 1 value, column 2 value, etc);
-(column 1 value, column 2 value, etc);
+(column 1 value, column 2 value, etc),
+(column 1 value, column 2 value, etc),
+(column 1 value, column 2 value, etc),
 (column 1 value, column 2 value, etc)
 ...etc;
 ```
 
 ## INNER JOIN
+Use JOIN to retrieve rows from multiple tables
+```sql
+SELECT * 
+FROM «table 1 name»
+INNER JOIN «table 2 name» ON (table_1_column_name.foreign_key_id = table_2_column_name.id);
+```
 
 # Writing and Running Seed Files 
 
