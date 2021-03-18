@@ -1,11 +1,11 @@
 # Getting Started 
 Open your terminal, start the PostgreSQL command line client with `psql postgres`. Your terminal should look like this: 
-```psql
+```sql
 postgres=#
 ```
 
 You can also prompt the PostgreSQL command line client with just `psql`, which will take you to your user's database.
-```psql
+```sql
 b-salinas=#
 ```
 
@@ -14,14 +14,14 @@ b-salinas=#
 **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
 #### Normal User
-```psql
+```sql
 CREATE USER username_goes_here
 WITH
 PASSWORD 'password_inbetween_single_quotes';
 ```
 
 #### Super User
-```psql
+```sql
 CREATE USER super_username_goes_here
 WITH 
 PASSWORD 'super_user_password_inbetween_single_quotes'
