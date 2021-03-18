@@ -201,3 +201,12 @@ VALUES
 
 # Writing and Running Seed Files 
 
+#### Caret Method
+```
+psql -d [database] -U [username] < [path_to_file/file.sql]
+```
+
+#### Pipe Method
+```
+cat [path_to_file/file.sql] | psql -d [database] -U [username]
+```
