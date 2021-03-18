@@ -53,6 +53,7 @@ Select **ALL** rows in a given table using `SELECT *`/
 SELECT *
 FROM «table name»;
 ```
+
 Select a specific column/s using `SELECT «column name»`.
 ```sql
 SELECT «column 1, column 2, etc»
@@ -61,14 +62,58 @@ FROM «table name»;
 
 ## WHERE
 The simplest WHERE clause finds a row by a single column value.
-```
+```sql
 SELECT «column 1, column 2, etc»
 FROM «table name»
 WHERE «column name» = 'value/condition';
 ```
-A WHERE clause can also be used to check for a list of values.
-```
+
+The WHERE clause can also be used to check for a list of values.
+```sql
 SELECT «column 1, column 2, etc»
 FROM «table name»
 WHERE «column name» IN ('value/condition 1', 'value/condition 2', etc);
 ```
+
+We can use the WHERE to check for a range of numeric/integar values.
+```sql
+SELECT «column 1, column 2, etc»
+FROM «table name»
+WHERE «column name» BETWEEN «value 1» AND «value 2»;
+```
+
+## ORDER BY
+You can specify the order in which you get back data, say ASCENDING...
+```sql
+SELECT name, «other column name»
+FROM «table name»
+ORDER BY name;
+```
+
+Or DESCENDING order.
+```sql
+SELECT name, «other column name»
+FROM «table name»
+ORDER BY name DESC;
+```
+
+# LIMIT 
+You can limit the number of rows returned using LIMIT.
+```sql
+SELECT name, «other column name»
+FROM «table name»
+ORDER BY name
+LIMIT 100;
+```
+
+# OFFSET 
+The LIMIT command above would return the first 100 rows that would meet the specified criteria. Let's say you want to see the _next_ 100 rows, you can do this using OFFSET after the LIMIT clause. 
+
+```sql
+SELECT name, «other column name»
+FROM «table name»
+ORDER BY name
+LIMIT 100 OFFSET 100;
+```
+
+This would return rows 101 - 200. It still _limits_ the total number of rows to 100, but it starts with the 100th row instead of the 1st row. 
