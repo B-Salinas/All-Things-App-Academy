@@ -8,16 +8,16 @@ postgres=#
 
 You did it!
 
-# Creating Users
+## Creating Users
 
-### Normal User
+#### Normal User
 ```
 CREATE USER username_goes_here
 WITH
 PASSWORD 'password_inbetween_single_quotes';
 ```
 
-### Super User
+#### Super User
 ```
 CREATE USER super_username_goes_here
 WITH 
@@ -28,7 +28,7 @@ SUPERUSER;
 
 If you typed everything correctly, you will see the message `CREATE ROLE`.
 
-### Naming a User
+#### Naming a User
 Usernames should contain only lowercase letters, numbers, and underscroes. They should NOT contain spaces, dashes, or any other character.
 
 | Good Usernames | Bad Usernames       |
@@ -43,5 +43,5 @@ Quite your session by typing `\q` into the postgres terminal.
 ```
 postgres=# \q
 ```
-
+# SQL Commands
 
