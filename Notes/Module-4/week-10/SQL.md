@@ -11,8 +11,6 @@ b-salinas=#
 
 ## Creating Users
 
-> **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
-
 #### Normal User
 ```sql
 CREATE USER username_goes_here
@@ -29,6 +27,8 @@ SUPERUSER;
 ```
 
 You should see `CREATE ROLE`, if everything was typed correctly.
+
+> **Note:** ALL SQL statements in PostgreSQL end with a semicolon.
 
 ### Naming a User
 Usernames should contain only lowercase letters, numbers, and underscroes. They should NOT contain spaces, dashes, or any other character.
