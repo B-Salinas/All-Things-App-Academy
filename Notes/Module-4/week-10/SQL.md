@@ -134,3 +134,13 @@ An SQL operator is a word or character that is used inside a WHERE clause to per
 | NOT      | Displays a record if the condition(s) is NOT TRUE.            |
 | OR       | TRUE if any of the conditions separated by OR is TRUE.        |
 | SOME     | TRUE if any of the subquery values meet the condition.        |
+
+### Wildcard Operator
+The wildcard character (`%`) is used to substitute one or more characters in a string. The wildcard character is used with the LIKE operator, where the LIKE operator is used with the WHERE clause. 
+
+| `LIKE`  | Matches "dog" | Matches "hotdog" | Matches "dog-tired" | Matches "ordogordo" | 
+|---------|---------------|------------------|---------------------|---------------------|
+| `dog`   | yes           | no               | no                  | no                  |
+| `%dog`  | yes           | yes              | no                  | no                  |
+| `dog%`  | yes           | no               | yes                 | no                  |
+| `%dog%` | yes           | yes              | yes                 | yes                 |
