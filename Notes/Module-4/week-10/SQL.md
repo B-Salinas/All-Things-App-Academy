@@ -42,19 +42,19 @@ Usernames should contain only lowercase letters, numbers, and underscroes. They 
 # SQL Commands
 
 You can quit your psql session anytime by typing `\q` into the terminal:
-```
+```sql
 postgres=# \q
 b-salinas@Bs-MacBook-Pro ~ %
 ```
 
 ## SELECT
 Select **ALL** rows in a given table using `SELECT *`
-```
+```sql
 SELECT *
 FROM «table name»
 ```
 Select a specific column/s using `SELECT «column name»`
-```
+```sql
 SELECT «column 1, column 2, etc»
 FROM «table name»
 ```
