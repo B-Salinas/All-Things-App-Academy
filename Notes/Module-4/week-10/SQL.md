@@ -1,11 +1,11 @@
 # Getting Started 
 Open your terminal, start the PostgreSQL command line client with `psql postgres`. Your terminal should look like this: 
-```
+```psql
 postgres=#
 ```
 
 You can also prompt the PostgreSQL command line client with just `psql`, which will take you to your user's database.
-```
+```psql
 b-salinas=#
 ```
 
