@@ -1,2 +1,4 @@
-- **RDBMS:** Relational Database Management Systems. A software application that you run that your programs can connect to that they can store, modify, and retrieve data.
-- **Database:** More properly, relational database, is a collection of structured data that the RDBMS manages for you. 
+- **RDBMS:** Relational Database Management Systems. A software that usually runs as a service that manages collections of structured data called databases.
+  - PostgreSQL: one of many relational database management systems and the one that you will mostly use in this course. 
+- **Database:** More properly, relational database, is a collection of structured data that an RDBMS manages for you.
+- **The Structured Query Language (SQL):** a programming language that allows you to interact with the structure of the database and the actual data that's stored in it.
