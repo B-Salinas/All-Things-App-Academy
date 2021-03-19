@@ -1,1 +1,1 @@
-- **RDBMS:**: Relational Database Management Systems.
+- **RDBMS:** Relational Database Management Systems.
