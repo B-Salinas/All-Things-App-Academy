@@ -1,1 +1,2 @@
-- **RDBMS:** Relational Database Management Systems.
+- **RDBMS:** Relational Database Management Systems. A software application that you run that your programs can connect to that they can store, modify, and retrieve data.
+- **Database:** More properly, relational database, is a collection of structured data that the RDBMS manages for you. 
