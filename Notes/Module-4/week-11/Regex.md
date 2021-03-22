@@ -16,7 +16,7 @@
 - **Hat Operator:** `[^]`, none of these characters
 
 #### Special Character Classes
-- `\s\`: whitespace (space, tab, newline)
+- `\s`: whitespace (space, tab, newline)
 - `\d`: digit
 - `\w`: word character (letter, digit, underscore)
 - `\S`: not whitespace
