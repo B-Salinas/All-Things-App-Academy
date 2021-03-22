@@ -24,3 +24,7 @@
 - `\W`: not a word character
 
 > **Note:** You can "escape" any character using `\`.
+
+# Flags
+- **`i`:** not case-sensative
+- **`g`:** global
