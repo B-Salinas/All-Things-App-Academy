@@ -23,3 +23,11 @@
   - write the status code, message, and headers for an HTTP response
   - write the content of the body of the response
   - properly end the response to indicate to the client (like a Web browser) that all content has been written
+
+# Express
+
+#### 1. Send plain text responses for any HTTP request
+#### 2. Use pattern matching to match HTTP request paths to route handlers
+#### 3. Use the Pug template engine to generate HTML from Pug templates to send to the browser
+#### 4. Pass data to Pug templates to generate dynamic content
+#### 5. Use the Router class to modularize the definition of routes
