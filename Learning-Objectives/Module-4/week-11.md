@@ -31,3 +31,10 @@
 #### 3. Use the Pug template engine to generate HTML from Pug templates to send to the browser
 #### 4. Pass data to Pug templates to generate dynamic content
 #### 5. Use the Router class to modularize the definition of routes
+
+# Pug
+
+#### 1. Declare HTML tags and their associated ids, classes, attributes, and content
+#### 2. Use conditional statements to determine whether or not to render a block
+#### 3. Use interpolation to mix static text and dynamic values in content and attributes
+#### 4. Use iteration to generate multiple blocks of HTML based on data provided to the template
