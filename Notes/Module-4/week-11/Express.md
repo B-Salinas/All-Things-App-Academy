@@ -4,9 +4,7 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const csrf = require('csurf');
-
-// a routes page for multiple routes
-// const routes = require('./routes'); // doesn't need file extension
+const routes = require('./routes'); // doesn't need file extension, don't forget to use this later
 
 const app = express();
 
@@ -15,6 +13,7 @@ const port = 8080; // or whatever localhost port number
 app.set('view engine', 'pug');
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
+app.use(routes);
 
 const csrfProtection = csrf({ cookie: true });
 
