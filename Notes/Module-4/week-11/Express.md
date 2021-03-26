@@ -23,3 +23,15 @@ const csrfProtection = csrf({ cookie: true });
 
 app.listen(port, () => console.log(`Listening on port ${port} ...`)); // displays on the terminal
 ```
+
+# Routes.js
+**NOTE:** Not all Express applications require a `routes.js`, but it does keep things cleaner. Don't forget to include `const routes = require('./routes');` at the top of your `app.js` file.
+
+```js
+const express = require('express');
+const router = express.Router(); // idk why this is important, but this is what we use instead of app.use, etc
+
+router.get('/', (request, response) => {
+  response.send('This will be sent to the landing page on the localhost port number specificed.');
+});
+```
