@@ -41,7 +41,7 @@ WHERE id > 5
 AND name LIKE '%e%';
 ```
 
-![SQL Statement](sql_statement.png)
+![SQL Statement](images/sql_statement.png)
 
 #### 5. Given the above data and SQL statement, how many records will the SQL statement return? 
 - [ ] 3
