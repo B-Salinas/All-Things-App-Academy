@@ -29,8 +29,9 @@ app.listen(port, () => console.log(`Listening on port ${port} ...`)); // display
 ```js
 const express = require('express');
 const router = express.Router(); // idk why this is important, but this is what we use instead of app.use, etc
+const db = require('./db/models'); // in order to create queries in our get/post methods with the sequelize databases we created
 
-router.get('/', (request, response) => {
-  response.send('This will be sent to the landing page on the localhost port number specificed.');
+router.get('/', (req, res) => {
+  res.send('This will be sent to the landing page on the localhost port number specificed.');
 });
 ```
