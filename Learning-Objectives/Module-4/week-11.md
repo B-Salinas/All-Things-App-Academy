@@ -1,14 +1,14 @@
 # Regular Expression
 
-#### 1. Define the effect of the * operator and use it in a regular expression
-#### 2. Define the effect of the ? operator and use it in a regular expression
-#### 3. Define the effect of the + operator and use it in a regular expression
-#### 4. Define the effect of the . operator and use it in a regular expression
-#### 5. Define the effect of the ^ operator and use it in a regular expression
-#### 6. Define the effect of the $ operator and use it in a regular expression
-#### 7. Define the effect of the [] bracket expression and use it in a regular expression
-#### 8. Define the effect of the - inside brackets and use it in a regular expression
-#### 9. Define the effect of the ^ inside brackets and use it in a regular expression
+#### Define the effect of the * operator and use it in a regular expression
+#### Define the effect of the ? operator and use it in a regular expression
+#### Define the effect of the + operator and use it in a regular expression
+#### Define the effect of the . operator and use it in a regular expression
+#### Define the effect of the ^ operator and use it in a regular expression
+#### Define the effect of the $ operator and use it in a regular expression
+#### Define the effect of the [] bracket expression and use it in a regular expression
+#### Define the effect of the - inside brackets and use it in a regular expression
+#### Define the effect of the ^ inside brackets and use it in a regular expression
 
 | Regex Symbol   | Regex Meaning                    |
 |----------------|----------------------------------|
@@ -35,6 +35,13 @@
 # HTTP Full Stack 
 
 #### 1. Identify the five parts of a URL
+```
+  foo://example.com:8042/over/there?name=ferret#nose
+  \_/   \______________/\_________/ \_________/ \__/
+   |           |            |            |        |
+scheme     authority       path        query   fragment
+```
+
 #### 2. Identify at least three protocols handled by the browser
 #### 3. Use an IncomingMessage object to
   - access the headers sent by a client (like a Web browser) as part of the HTTP request
