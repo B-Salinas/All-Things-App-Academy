@@ -10,6 +10,28 @@
 #### 8. Define the effect of the - inside brackets and use it in a regular expression
 #### 9. Define the effect of the ^ inside brackets and use it in a regular expression
 
+| Regex Symbol   | Regex Meaning                    |
+|----------------|----------------------------------|
+| *              | Zero or more                     |
+| +              | One or more                      |
+| ?              | Zero or one                      |
+| {m, n}         | from m to n number of characters |
+| ^              | start of input                   |
+| $              | end of input                     |
+| .              | any single character             |
+| \              | escape a special character       |
+| []             | match anything inside            |
+| [a-z] or [0-9] | range of characters              |
+| [^a-zA-Z]      | not these range of characters    |
+| ()             | group these characters           |
+| \s             | whitespace                       |
+| \d             | digit                            |
+| \w             | wordy (letter, digit, or \_)     |
+| \S             | not whitespace                   |
+| \D             | not digit                        |
+| \W             | not whitespace                   |
+
+
 # HTTP Full Stack 
 
 #### 1. Identify the five parts of a URL
