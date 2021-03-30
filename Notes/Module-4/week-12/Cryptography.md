@@ -27,7 +27,13 @@ Allows you to encrypt a message to a fixed length value.
 - Differs from the two-way encryption previous reviewed. 
 - Hashing never allows you to recover the original message. This method is considered _lossy_, meaning the process is irreversible. (Information Theory says if you lose enough information during an algorithm, it's impossible to reverse engineer it.)
 
-#### Hash Collision 
-This occurs when two different inputs create the same hashed message. 
+**Hash Collision:** This occurs when two different inputs create the same hashed message. 
+
+#### Slow Algorithms
+Good Hasing Algorithms are going to be computationally expensive, that cannot be modeled on cheap processors that get hacked using compute farms. We want slow algorithms. 
+
+- PBKDF2
+- bcrypt
+- Argon2
 
 
