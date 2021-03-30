@@ -16,3 +16,6 @@ Allows you to encrypt and decrypt messages using two keys.
 
 ## Hashing
 Allows you to encrypt a message to a fixed length value. 
+
+- Differs from the two-way encryption previous reviewed. 
+- Hashing never allows you to recover the original message. This method is considered _lossy_, meaning the process is irreversible. (Information Theory says if you lose enough information during an algorithm, it's impossible to reverse engineer it.)
