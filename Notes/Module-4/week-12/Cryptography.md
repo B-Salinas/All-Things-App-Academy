@@ -14,7 +14,7 @@ Allows you to encrypt and decrypt messages using two keys.
 
 #### Diffie Hellman (DH) Key Exchange Algorithm
 This interaction is based off the DH Key Algorithm, which says:
-```
+```math
 A ≡ g^a (mod p)
 B ≡ g^b (mod p)
 ```
