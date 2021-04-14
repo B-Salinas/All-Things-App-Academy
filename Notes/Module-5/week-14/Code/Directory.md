@@ -1,24 +1,40 @@
+#### Starters
 ```
 Starters/
- ├── D2
-      ├── jsx-intro-starter-part1
-      └── react-router-starter-part2
- ├── D3
-      └── hooks-intro-starter
+ ├── D2/
+ │    ├── jsx-intro-starter-part1/
+ │    └── react-router-starter-part2/
+ │
+ ├── D3/
+ │    └── hooks-intro-starter/
+ │
+ ├── D4/
+ │    └── 
+ │
+ └── D5/
+      └── 
 ```
 
+#### Morning Lectures
 ```
 Morning-Lectures/
- ├── D2
-      ├── jsx-intro-starter-class-part1
-      └── react-router-starter-class-part2
- ├── D3
-      └── hooks-intro-starter
+ ├── D2/
+ │    ├── jsx-intro-starter-class-part1/
+ │    └── react-router-starter-class-part2/
+ ├── D3/
+ │    └── hooks-intro-starter/
+ │
+ ├── D4/
+ │    └── 
+ │
+ └── D5/
+      └── 
 ```
 
+#### Solutions
 ```
 Solutions/
- └── W14D2-solution
+ └── W14D2-solution/
 
 ```
 
