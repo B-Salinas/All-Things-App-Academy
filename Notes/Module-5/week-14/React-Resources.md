@@ -23,7 +23,3 @@
 - [Create React App](https://vimeo.com/488496412/75a81ebf7c)
 
 
-
-
-
-# Code Directory
