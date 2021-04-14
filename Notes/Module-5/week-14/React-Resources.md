@@ -5,8 +5,7 @@
 
 - [Lists & Keys](https://reactjs.org/docs/lists-and-keys.html), or why a key is needed when using the `.map` function in React
 
-
-
+- [Custom Templates](https://create-react-app.dev/docs/custom-templates/)
 
 
 
