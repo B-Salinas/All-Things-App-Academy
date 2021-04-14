@@ -1,0 +1,22 @@
+extends layout.pug 
+
+block content 
+  form(method="post" action="/entrees")
+    input(type="hidden" name="_csrf" value=csrfToken)
+
+    label(for="name") Name
+    input(type="text" name="name" placeholder="Enter Your Name" required)
+
+    label(for="description") Description 
+    textarea(type="text" name="description" placeholder="Enter a Description")
+
+    label(for="price") Price 
+    input(type="number" name="price" placeholder="Price" required)
+
+    label(for="entreeTypeId") Entree Type 
+    select(name="entreeTypeId" required)
+      each eType in eTypes 
+        option(value=eType.id)= eType.name
+
+    button(type="submit" value="submit") Create
+

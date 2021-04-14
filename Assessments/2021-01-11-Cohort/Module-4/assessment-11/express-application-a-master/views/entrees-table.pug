@@ -1,0 +1,20 @@
+extends layout.pug 
+
+block content 
+  table 
+    thead
+      tr 
+        th Name 
+        th Description 
+        th Price 
+        th Type Name 
+        th Is Vegetarian 
+    tbody 
+      each thing in entrees
+        tr 
+          td= thing.name 
+          td= thing.description 
+          td= thing.price 
+          td= thing.EntreeType.name
+          td= thing.EntreeType.entreeTypeId 
+          td= thing.EntreeType.isVegetarian
