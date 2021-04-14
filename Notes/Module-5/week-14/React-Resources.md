@@ -1,7 +1,7 @@
 # Docs
 - [React Router](https://reactrouter.com/web/api/)
 
-- [Composition](https://reactjs.org/docs/composition-vs-inheritance.html), or wrapping a component]
+- [Composition](https://reactjs.org/docs/composition-vs-inheritance.html), or wrapping a component
 
 - [Lists & Keys](https://reactjs.org/docs/lists-and-keys.html), or why a key is needed when using the `.map` function in React
 
