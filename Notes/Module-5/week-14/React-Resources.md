@@ -16,9 +16,11 @@
 
 ## Morning Lectures
 - [D2 - Basic React & React Router](https://vimeo.com/536537238/f28df5508d)
+- [D3 - useState, useEffect, & Forms](https://vimeo.com/536971788/8682985dc7)
 
 ## EODs
 - [D2](https://vimeo.com/536583505/ef78983a68)
+- [D3](https://vimeo.com/537041794/a7b29eda68)
 
 ## Other
 - [Create React App](https://vimeo.com/488496412/75a81ebf7c)
