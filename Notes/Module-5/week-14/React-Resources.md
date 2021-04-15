@@ -11,6 +11,7 @@
 
 - [DOM Elements](https://reactjs.org/docs/dom-elements.html)
 
+- [Event Handling - SyntheticEvents](https://reactjs.org/docs/events.html#supported-events)
 
 # Videos
 
