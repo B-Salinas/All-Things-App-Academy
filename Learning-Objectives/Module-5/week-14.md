@@ -74,6 +74,8 @@ There is a special App Academy template, which we create by using `npx create-re
 # React Components
 
 ### Provide default values for a React component's props
+You can expect `props` to be an object that has its keys and values determined by the parent components. 
+
 ### Pass props into a React component
 **Props:** an object that gets passed down from the parent component to the child component. This value can be of any data structure, including a function (which is an object type).
 
