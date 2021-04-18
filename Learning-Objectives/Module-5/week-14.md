@@ -1,11 +1,3 @@
-# Intro to ES6 Modules
-
-#### `export default` statement to export one item per file
-#### `export` keyword to export multiple items per file
-#### `import ... from` statement to import items from one file to another
-#### `export default` statement to export an unnamed item and rename the item in an import statement
-#### `as` keyword (in an `import ... from` statement) to _alias_ and _namespace_ all of a file's exported items
-
 # React Basics
 
 #### Explain how React uses a tree data structure called the virtual DOM to model the DOM
