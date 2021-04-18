@@ -194,15 +194,58 @@ import { NavLink } from 'react-router-dom'
 <NavLink activeClassName="red" to="/users">Users</NavLink>
 <NavLink activeClassName="blue" to="/hello">Hello</NavLink>
 ```
-
 The difference between `Link` and `NavLink` is that `NavLink` has the ability to add extra styling when the path is links to matches the current path. 
 
 ### 3. Use React Router params to access path variables
 A component's props can hold information about a URL's parameters. The router will match route segments starting at `:` up to the next `/`, `?`, or `#`. Such segments are wildcard values that make up your route parameters. 
 
-**Example:** `<Route p`
+**Example:** `<Route path='/users/:userId'>`
+
+We access these parameters in our component by using the `useParams` function from `react-router-dom`. 
+
+```jsx
+import { useParams } from 'react-router-dom';
+
+function Example() {
+  const params = useParams();
+  // OR
+  const { userId } = useParams(); // if params in route path is /:userId
+}
+```
+
 ### 4. Use React Router history to programmatically change the browser's URL
+**THIS IS IMPORTANT.** The `useHistory` hook returns a history object that has convenient methods for navigation. `useHistory` also lets you update the URL programmatically. 
+
+We can push the user to the location of our choosing by naming the route we are pushing them too. 
+
+```jsx
+import { useHistory } from 'react-router-dom';
+
+export default function Example() {
+  const history = useHistory(); // history object is returned from useHistory hook and has various methods
+  const handleClick = () => history.push('/some/url'); // pushing a new URL
+}
+```
+
 ### 5. Redirect users by using the `<Redirect>` component
+`<Redirect>` from the React Router helps you redirect users if you do not want to give access to the current Component/Page/Location. The component only takes one prop, `to`. When it renders, it replaces the current URL with the value of its `to` prop:
+
+```js
+import { Redirect, useParams } from 'react-router-dom';
+
+const Profile = () => {
+  const params = useParams();
+  const { userId } = params;
+
+  if (Number(userId) === 0) return <Redirect to="/" />;
+
+  return (
+    <h1>Hello from User Profile {userId}!</h1>
+  );
+};
+
+export default Profile;
+```
 
 # React Hooks
 
