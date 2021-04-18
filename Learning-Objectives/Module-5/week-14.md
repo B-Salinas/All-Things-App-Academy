@@ -1,9 +1,9 @@
 # React Basics
 
-## Explain how React uses a tree data structure called the virtual DOM to model the DOM
+### Explain how React uses a tree data structure called the virtual DOM to model the DOM
 The virtual DOM is a copy of the actual DOM tree. Updates in React are made to the virtual DOM. React uses a diffing algorithm to reconcile the changes and send them to the DOM to commit and paint.
 
-## Create virtual DOM nodes using JSX
+### Create virtual DOM nodes using JSX
 To create a React virtual DOM node using JSX, define HTML syntax in a JS file:
 ```js
 const hello = <h1>Hello World!</h1>
@@ -23,10 +23,10 @@ const navBar = (
 );
 ```
 
-## Describe how JSX transforms into actual DOM nodes
+### Describe how JSX transforms into actual DOM nodes
 We use `ReactDOM.render` to transfer JSX into real / actual DOM nodes. It takes a React virtual DOM node's changes and allows Babel to transpile it and send the JS changes to commit to the real DOM. 
 
-## Use the `ReactDOM.render` method to have React render your virtual DOM nodes under an actual DOM node
+### Use the `ReactDOM.render` method to have React render your virtual DOM nodes under an actual DOM node
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -40,7 +40,7 @@ ReactDOM.render(
 );
 ```
 
-## Attach an event listener to an actual DOM node using a virtual node
+### Attach an event listener to an actual DOM node using a virtual node
 To add an event listener to an element, define a method to handle the event and associate the method with the element even you want to listen for:
 
 ```js
@@ -59,13 +59,12 @@ function AlertButton() {
 export default AlertButton;
 ```
 
-## Use `create-react-app` to stand up a new React application and import needed assets
+### Use `create-react-app` to stand up a new React application and import needed assets
 We create the default create-react-application by typing `npx create-react-app «name of app» --use-npm` in the terminal. 
 - `npx` gives us the latest version
 - `--use-npm` means to use npm instead of yarn / or some other package manager
 
-
-## Construct a custom 'create-react-app' template and use it to start a new application
+### Construct a custom 'create-react-app' template and use it to start a new application
 There is a special App Academy template, which we create by using `npx create-react-app --template @appacademy/react-v17 --use-npm`.
 
 
@@ -74,8 +73,8 @@ There is a special App Academy template, which we create by using `npx create-re
 
 # React Components
 
-### 1. Provide default values for a React component's props
-### 2. Pass props into a React component
+### Provide default values for a React component's props
+### Pass props into a React component
 **Props:** an object that gets passed down from the parent component to the child component. This value can be of any data structure, including a function (which is an object type).
 
 ```js
@@ -115,10 +114,10 @@ function NavLinks(props) {
 }
 ```
 
-### 3.Use debugging tools to determine when a component is rendering
+### Use debugging tools to determine when a component is rendering
 We use the **React DevTools extension** as an extension in our Browser DevTools to debug and view when a component is rendering. 
 
-### 4. Destructure props
+### Destructure props
 You can destruct the props object in the function component's parameters. 
 ```js
 function NavLinks({ props }) {
