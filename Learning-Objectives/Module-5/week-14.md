@@ -74,18 +74,135 @@ There is a special App Academy template, which we create by using `npx create-re
 
 # React Components
 
-#### 1. Provide default values for a React component's props
-#### Pass props into a React component
-#### Use debugging tools to determine when a component is rendering
-#### Destructure props
+### 1. Provide default values for a React component's props
+### 2. Pass props into a React component
+**Props:** an object that gets passed down from the parent component to the child component. This value can be of any data structure, including a function (which is an object type).
+
+```js
+function NavBar() {
+  return (
+    <nav>
+      <h1>Pets App</h1>
+      <NavLinks hello="world"/> // Prop being passed in a component
+    </nav>
+  );
+}
+
+// Or you can interpolate values in JSX. 
+function NavBar() {
+  const world = 'world';
+  return (
+    <nav>
+      <h1>Pets App</h1>
+      <NavLinks hello={world}/> // Prop being passed in as variable
+    </nav>
+  );
+}
+```
+
+To access props objects in another component, we pass it the props argument and React will invoke the functional component with the props object. You can pass down **as many** props keys as you want.
+
+```js
+function NavLinks(props) {
+  return (
+    <ul>
+      <li>
+        <a href='/hello'>{props.hello}</a> // accessing props objects through keys
+      </li>
+      // ... the rest of the code ...
+    </ul>
+  )
+}
+```
+
+### 3.Use debugging tools to determine when a component is rendering
+We use the **React DevTools extension** as an extension in our Browser DevTools to debug and view when a component is rendering. 
+
+### 4. Destructure props
+You can destruct the props object in the function component's parameters. 
+```js
+function NavLinks({ props }) {
+  return (
+    <ul>
+      <li>
+        <a href='/hello'>{hello}</a> // accessing props objects through keys
+      </li>
+      // ... the rest of the code ...
+    </ul>
+  )
+}
+```
 
 # React Router
 
-#### Create routes using components from the `react-router-dom` package
-#### Generate navigation links using components from the `react-router-dom` package
-#### Use React Router params to access path variables
-#### Use React Router history to programmatically change the browser's URL
-#### Redirect users by using the `<Redirect>` component
+### 1. Create routes using components from the `react-router-dom` package
+1. Import the react-router-dom package using `npm i react-router-dom` command line
+2. In your `Index.js`:
+```js
+// ./src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+
+const Root = () => {
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+};
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Root />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
+> Above, you imported your `BrowserRouter` with which you can wrap your entire route hierachy. This makes routing information from React Router available to all its descendent components. 
+
+3. In the `«component».js`of your choosing (usually a top tier such as `App.js`), you can create your routes using the Route and Switch components:
+```js
+import { Route, Switch } from 'react-router-dom';
+import Home from './components/Home';
+
+<Switch>
+  <Route exact path='/'>
+    <Home />
+  </Route>
+  <Route exact path='/users'>
+    <Users />
+  </Route>
+</Switch>;
+```
+
+### 2. Generate navigation links using components from the `react-router-dom` package
+We create links by either using React Router's `Link` or `NavLink`. They issue an on-click navigation event to a route defined in your app's router. Either renders an `a` tag with a correctly set `href` attribute. 
+
+**Link**
+```js
+import { Link } from 'react-router-dom'
+<Link to='/'>Home</Link>
+<Link to='/users'>Users</Link>
+```
+
+**NavLink**
+```js
+import { NavLink } from 'react-router-dom'
+<NavLink to="/">App</NavLink>
+<NavLink activeClassName="red" to="/users">Users</NavLink>
+<NavLink activeClassName="blue" to="/hello">Hello</NavLink>
+```
+
+The difference between `Link` and `NavLink` is that `NavLink` has the ability to add extra styling when the path is links to matches the current path. 
+
+### 3. Use React Router params to access path variables
+A component's props can hold information about a URL's parameters. The router will match route segments starting at `:` up to the next `/`, `?`, or `#`. Such segments are wildcard values that make up your route parameters. 
+
+**Example:** `<Route p`
+### 4. Use React Router history to programmatically change the browser's URL
+### 5. Redirect users by using the `<Redirect>` component
 
 # React Hooks
 
