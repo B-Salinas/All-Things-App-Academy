@@ -24,10 +24,53 @@ const navBar = (
 ```
 
 #### 3. Describe how JSX transforms into actual DOM nodes
+We use `ReactDOM.render` to transfer JSX into real / actual DOM nodes. It takes a React virtual DOM node's changes and allows Babel to transpile it and send the JS changes to commit to the real DOM. 
+
 #### 4. Use the `ReactDOM.render` method to have React render your virtual DOM nodes under an actual DOM node
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+  document.getElementById('root');
+);
+```
+
 #### 5. Attach an event listener to an actual DOM node using a virtual node
+To add an event listener to an element, define a method to handle the event and associate the method with the element even you want to listen for:
+
+```js
+function AlertButton() {
+  showAlert = () => {
+    window.alert('Button Clicked!');
+  };
+
+  return (
+    <button type='button' onClick={showAlert}>
+      Click me!
+    </button>
+  );
+}
+
+export default AlertButton;
+```
+
 #### 6. Use `create-react-app` to stand up a new React application and import needed assets
+We create the default create-react-application by typing `npx create-react-app «name of app» --use-npm` in the terminal. 
+- `npx` gives us the latest version
+- `--use-npm` means to use npm instead of yarn / or some other package manager
+
+
 #### 7. Construct a custom 'create-react-app' template and use it to start a new application
+There is a special App Academy template, which we create by using `npx create-react-app --template @appacademy/react-v17 --use-npm`.
+
+
+
+
 
 # React Components
 
