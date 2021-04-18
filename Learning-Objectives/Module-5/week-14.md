@@ -1,16 +1,37 @@
 # React Basics
 
-#### Explain how React uses a tree data structure called the virtual DOM to model the DOM
-#### Create virtual DOM nodes using JSX
-#### Describe how JSX transforms into actual DOM nodes
-#### Use the `ReactDOM.render` method to have React render your virtual DOM nodes under an actual DOM node
-#### Attach an event listener to an actual DOM node using a virtual node
-#### Use `create-react-app` to stand up a new React application and import needed assets
-#### Construct a custom 'create-react-app' template and use it to start a new application
+#### 1. Explain how React uses a tree data structure called the virtual DOM to model the DOM
+The virtual DOM is a copy of the actual DOM tree. Updates in React are made to the virtual DOM. React uses a diffing algorithm to reconcile the changes and send them to the DOM to commit and paint.
+
+#### 2. Create virtual DOM nodes using JSX
+To create a React virtual DOM node using JSX, define HTML syntax in a JS file:
+```js
+const hello = <h1>Hello World!</h1>
+```
+The JS variable `hello` is set to a React virtual DOM `h1` element with the text "Hello World!" 
+
+You can also nest virtual DOM nodes in each other, just like you do in HTML with the real DOM. 
+```js
+const navBar = (
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Profile</li>
+      <li>Settings</li>
+    </ul>
+  </nav>
+);
+```
+
+#### 3. Describe how JSX transforms into actual DOM nodes
+#### 4. Use the `ReactDOM.render` method to have React render your virtual DOM nodes under an actual DOM node
+#### 5. Attach an event listener to an actual DOM node using a virtual node
+#### 6. Use `create-react-app` to stand up a new React application and import needed assets
+#### 7. Construct a custom 'create-react-app' template and use it to start a new application
 
 # React Components
 
-#### Provide default values for a React component's props
+#### 1. Provide default values for a React component's props
 #### Pass props into a React component
 #### Use debugging tools to determine when a component is rendering
 #### Destructure props
