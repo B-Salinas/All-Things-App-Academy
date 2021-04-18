@@ -200,7 +200,7 @@ import { NavLink } from 'react-router-dom';
 <NavLink activeClassName="red" to="/users">Users</NavLink>
 <NavLink activeClassName="blue" to="/hello">Hello</NavLink>
 ```
-The difference between `Link` and `NavLink` is that `NavLink` has the ability to add extra styling when the path is links to matches the current path. 
+The difference between `Link` and `NavLink` is that `NavLink` has the ability to add extra styling when the path it links to matches the current path. 
 
 ### 3. Use React Router params to access path variables
 A component's props can hold information about a URL's parameters. The router will match route segments starting at `:` up to the next `/`, `?`, or `#`. Such segments are wildcard values that make up your route parameters. 
