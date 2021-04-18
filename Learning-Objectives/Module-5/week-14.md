@@ -134,6 +134,9 @@ function NavLinks({ props }) {
 }
 ```
 
+
+
+
 # React Router
 
 ### 1. Create routes using components from the `react-router-dom` package
@@ -183,14 +186,16 @@ We create links by either using React Router's `Link` or `NavLink`. They issue a
 
 **Link**
 ```js
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 <Link to='/'>Home</Link>
 <Link to='/users'>Users</Link>
 ```
 
 **NavLink**
 ```js
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+
 <NavLink to="/">App</NavLink>
 <NavLink activeClassName="red" to="/users">Users</NavLink>
 <NavLink activeClassName="blue" to="/hello">Hello</NavLink>
