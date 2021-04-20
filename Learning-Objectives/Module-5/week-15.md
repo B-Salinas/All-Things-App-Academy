@@ -1,7 +1,6 @@
 # React with Redux
 
 ### Describe the Redux Data Cycle
-
 ### Evaluate when it's appropriate to use Redux.
 ### Configure a React application to use Redux.
 ### Configure Redux to use the browser extension for Redux development tools.
