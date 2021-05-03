@@ -12,6 +12,7 @@
 ## Morning Lectures
 - [D2 - Basic React & React Router](https://vimeo.com/536537238/f28df5508d)
 - [D3 - useState, useEffect, & Forms](https://vimeo.com/536971788/8682985dc7)
+- [D4 - Context w Miah](https://vimeo.com/537373618/5473820771)
 
 ## EODs
 - [D2](https://vimeo.com/536583505/ef78983a68)
