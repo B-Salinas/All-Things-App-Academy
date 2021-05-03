@@ -2,10 +2,12 @@
 
 ## Morning Lectures
 - [D1 - Class Components](https://vimeo.com/538903882/33d96ea898)
+- [D2 - React-Redux](https://vimeo.com/539378173/2a68ed6b17)
 - [D3 - Redux Thunk](https://vimeo.com/539787011/d105de0c0a)
 
 ## EOD 
 - [D1](https://vimeo.com/538923936/7530933ba6)
+- [D2](https://vimeo.com/539413799/aa809411cb)
 - [D3 - Higher Order Functions, Pokedex, and Redux Thunk](https://vimeo.com/539924848/1504695bcf)
 - [D4 - FullStack DataFlow](https://vimeo.com/540417329/29282a23aa)
   - [FullStack DataFlow GitHub Link](https://github.com/Lazytangent/DataFlow)
