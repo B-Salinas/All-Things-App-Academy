@@ -15,6 +15,8 @@
 
 ## Other
 - [AWS Walkthrough](https://vimeo.com/540876917/93bd927a0f)
+- [Copying Objects and Arrays](https://vimeo.com/502259733/55ddcd00df)
+- [Normalizing / Flattening Data in Vanilla JS](https://vimeo.com/502260957/a69856a4c8)
 
 # Docs
 - [CSS Modules](https://github.com/css-modules/css-modules)
