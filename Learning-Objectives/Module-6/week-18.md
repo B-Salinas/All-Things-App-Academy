@@ -31,3 +31,12 @@
 #### Install the Flask-SQLAlchemy extension to use with Flask
 #### Configure SQLAlchemy using **Flask-SQLAlchemy**
 #### Use the convenience functions and objects **Flask-SQLAlchemy** provides you to use in your code.
+
+# Class and Instance Variables 
+
+#### Describe the difference between instance and class variables;
+#### Define a class variable;
+#### Describe how Python performs attribute name lookups;
+#### Describe the difference between instance, class, and static methods;
+#### Use the `@classmethod` decorator to define a class method; and
+#### Use the `@staticmethod` decorator to define a static method.
