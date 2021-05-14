@@ -90,7 +90,7 @@ from wtforms.validators import DataRequired
 
 v = [DataRequired()]
 
-class ClassName(FlaskForm):
+class Form_Name(FlaskForm):
   input_field_name = StringField("label_goes_here", v)
   # etc...
 ```
@@ -113,12 +113,29 @@ class Model_Name(db.Model, UserMixin):
 # Route Requirements
 For the sake of simplicity, **all of our routes will be handled in the `app/__init__.py` file**. This will not be the case for future projects, so keep that in mind. 
 
-#### `app`/`__init__.py`
-```python 
+#### `app / __init__.py`
+```python
 # previously set up
 from flask from Flask
 
 app = Flask(__name__)
 
-# newly set up
+# new set up
+from flask from Flask, redirect, render_template
+from flask-migrate import Migrate
+from .config import Configuration
+from .models import db, «Model_Name_Created_In_.models.py»
+from .forms import «Form_Name_Created_In_.forms.py»
+
+app = Flask(__name__)
+app.config.from_object(Configuration)
+db.init_app(app)
+Migrate(app, db)
+```
+
+#### `GET "/"`
+```python
+@app.route("/")
+def main_page():
+  return render_template("main_page.html") # we haven't created this template yet
 ```
