@@ -11,11 +11,15 @@
 
 # Getting Started
 
-In PSQL, create a database and a database user who owns the database. Don't forget passwords need to be wrapped in single quotes! 
+In PSQL, create a database and a database user who owns the database. **Don't forget passwords need to be wrapped in single quotes!**
 
 ```sql
-CREATE USER «database_username» WITH PASSWORD '«password»' CREATEDB;
-CREATE DATABASE «database_name» WITH OWNER «database_username»;
+CREATE USER database_username 
+WITH PASSWORD 'password_goes_here' 
+CREATEDB;
+
+CREATE DATABASE database_name 
+WITH OWNER database_username;
 ```
 
 Use `pipenv` to install dependencies. 
