@@ -44,6 +44,18 @@ from flask from Flask
 app = Flask(__name__)
 ```
 
+#### `config.py`
+```python
+import os 
+from os import environ
+from flask_sqlalchemy import SQLAlchemy
+
+class Configuration:
+  SECRET_KEY = os.environ.get('SECRET_KEY')
+  SQLALCHEMY_DATABASE_URI = environ.get('DATABASE_URL')
+  SQLALCHEMY_TRACK_MODIFICATIONS = False
+```
+
 #### `forms.py`
 ```python 
 from flask import Flask
@@ -73,14 +85,3 @@ class Model_Name(db.Model, UserMixin):
   # etc...
 ```
 
-#### `config.py`
-```python
-import os 
-from os import environ
-from flask_sqlalchemy import SQLAlchemy
-
-class Configuration:
-  SECRET_KEY = os.environ.get('SECRET_KEY')
-  SQLALCHEMY_DATABASE_URI = environ.get('DATABASE_URL')
-  SQLALCHEMY_TRACK_MODIFICATIONS = False
-```
