@@ -115,15 +115,17 @@ For the sake of simplicity, **all of our routes will be handled in the `app/__in
 ## Reconfiguring `app` directory
 
 #### `__init__.py`
+
+**Previous Setup**
 ```python
 # previous setup
 from flask from Flask
 
 app = Flask(__name__)
+```
 
-# ------------------------------------- #
-
-# new setup
+**New Setup**
+```python
 from flask from Flask, redirect, render_template
 from flask-migrate import Migrate
 from .config import Configuration
@@ -137,8 +139,9 @@ Migrate(app, db)
 ```
 
 #### `forms.py`
+
+**Previous Setup**
 ```python 
-# previous setup
 from flask_wtf import FlaskForm
 from wtforms.fields import (StringField, etc...)
 from wtforms.validators import DataRequired
@@ -148,10 +151,9 @@ v = [DataRequired()]
 class Form_Name(FlaskForm):
   input_field_name = StringField("label_goes_here", v)
   # etc...
-  
-# ------------------------------------- #
-
-# new setup
+```
+**New Setup**
+```
 from flask_wtf import FlaskForm
 from wtforms.fields import (StringField, IntegerField, TextAreaField, SubmitField)
 from wtforms.validators import DataRequired
