@@ -83,8 +83,7 @@ class Configuration:
 
 #### `forms.py`
 ```python 
-from flask import Flask
-import flask_wtf import FlaskForm
+from flask_wtf import FlaskForm
 from wtforms.fields import (StringField, etc...)
 from wtforms.validators import DataRequired
 
@@ -117,24 +116,53 @@ For the sake of simplicity, **all of our routes will be handled in the `app/__in
 
 #### `__init__.py`
 ```python
-# previous set up
+# previous setup
 from flask from Flask
 
 app = Flask(__name__)
 
 # ------------------------------------- #
 
-# new set up
+# new setup
 from flask from Flask, redirect, render_template
 from flask-migrate import Migrate
 from .config import Configuration
-from .models import db, «Model_Name_Created_In_.models.py»
-from .forms import «Form_Name_Created_In_.forms.py»
+from .models import db, SimplePerson # newly created in .models
+from .forms import SimpleForm # newly created in .forms
 
 app = Flask(__name__)
 app.config.from_object(Configuration)
 db.init_app(app)
 Migrate(app, db)
+```
+
+#### `forms.py`
+```python 
+# previous setup
+from flask_wtf import FlaskForm
+from wtforms.fields import (StringField, etc...)
+from wtforms.validators import DataRequired
+
+v = [DataRequired()]
+
+class Form_Name(FlaskForm):
+  input_field_name = StringField("label_goes_here", v)
+  # etc...
+  
+# ------------------------------------- #
+
+# new setup
+from flask_wtf import FlaskForm
+from wtforms.fields import (StringField, IntegerField, TextAreaField, SubmitField)
+from wtforms.validators import DataRequired
+
+v = [DataRequired()]
+
+class SimpleForm(FlaskForm):
+  name = StringField("Name", v)
+  age = IntegerField("Age")
+  bio = TextAreaField("Bio")
+  submit = SubmitField("Submit")
 ```
 ## Actual Routes in `app` directory
 
@@ -143,4 +171,12 @@ Migrate(app, db)
 @app.route("/")
 def main_page():
   return render_template("main_page.html") # we haven't created this template yet
+```
+
+#### `GET "/simple-form"`
+```python
+@app.route("/simple-form")
+def simple_form():
+  form = SimpleForm()
+  return render_template("simple_form.html", form=form) # we haven't created this template yet
 ```
