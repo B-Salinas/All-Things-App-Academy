@@ -28,10 +28,10 @@ Use `pipenv` to install dependencies.
 pipenv install «dependency_name»
 ```
 
-[comment]: <> (And for our convenience: 
-```zsh
-pipenv install pytest pycodestyle pylint rope flask flask-sqlalchemy alembic flask-migrate python-dotenv psycopg2-binary sqlalchemy wtforms flask-wtf
-```)
+[comment]: <> (And for our convenience:)
+[comment]: <> (```zsh)
+[comment]: <> (pipenv install pytest pycodestyle pylint rope flask flask-sqlalchemy alembic flask-migrate python-dotenv psycopg2-binary sqlalchemy wtforms flask-wtf)
+[comment]: <> (```)
 
 Activate your virtual environment using `pipenv shell` in your terminal!
 
