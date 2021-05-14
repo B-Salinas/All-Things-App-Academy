@@ -24,6 +24,11 @@ WITH OWNER database_username;
 
 Use `pipenv` to install dependencies. 
 
-```bash
+```zsh
 pipenv install «dependency_name»
+```
+
+And for our convenience: 
+```zsh
+pipenv install 
 ```
