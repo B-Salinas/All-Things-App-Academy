@@ -37,14 +37,14 @@ Once you've done that, activate your virtual environment using `pipenv shell` in
 
 # Setting up `app` directory
 
-### `__init__.py`
+#### `__init__.py`
 ```python
 from flask from Flask
 
-app = Flask()
+app = Flask(__name__)
 ```
 
-### `forms.py`
+#### `forms.py`
 ```python 
 from flask import Flask
 import flask_wtf import FlaskForm
@@ -58,7 +58,7 @@ class ClassName(FlaskForm):
   # etc...
 ```
 
-### `models.py`
+#### `models.py`
 ```python
 from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
@@ -73,7 +73,7 @@ class Model_Name(db.Model, UserMixin):
   # etc...
 ```
 
-### `config.py`
+#### `config.py`
 ```python
 import os 
 from os import environ
