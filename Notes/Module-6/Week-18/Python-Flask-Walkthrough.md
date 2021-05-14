@@ -1,5 +1,6 @@
 # Before Getting Started
 
+## Docs
 - [Alembic](https://alembic.sqlalchemy.org/en/latest/)
 - [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/)
 - [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
@@ -15,3 +16,10 @@ In PSQL, create a database and a database user who owns the database. Don't forg
 ```sql
 CREATE USER «database_username» WITH PASSWORD '«password»' CREATEDB;
 CREATE DATABASE «database_name» WITH OWNER «database_username»;
+```
+
+Use `pipenv` to install dependencies. 
+
+```bash
+pipenv install «dependency_name»
+```
