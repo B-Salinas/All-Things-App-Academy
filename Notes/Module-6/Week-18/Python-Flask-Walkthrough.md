@@ -35,6 +35,23 @@ pipenv install «dependency_name»
 
 Once you've done that, activate your virtual environment using `pipenv shell` in your terminal!
 
+# Setting up `.env` environment
+
+#### `.env`
+```python
+FLASK_ENV=development
+SECRET_KEY=«generate_secret_key»
+DATABASE_URL= ...grab this from the instructions...
+```
+
+**Note:** To generate a `SECRET_KEY`, type in `node` into your terminal. You will be welcomed into the Node.js Enviroment. Use `require("crypto").randomBytes(32).toString("hex");` to generate a secret key. **`SECRET_KEY`s do not need to be wrapped in strings when placed in your `.env` file.**
+
+#### `.flaskenv`
+```python
+FLASK_APP=app OR name of main file
+FLASK_ENV=development
+```
+
 # Setting up `app` directory
 
 #### `__init__.py`
