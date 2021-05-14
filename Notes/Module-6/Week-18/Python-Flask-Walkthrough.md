@@ -46,12 +46,13 @@ DATABASE_URL=«scheme»://«username»:«password»@«server_name»/«database_n
 
 **Note 1:** To generate a `SECRET_KEY`, type in `node` into your terminal. You will be welcomed into the Node.js Enviroment. Use `require("crypto").randomBytes(32).toString("hex");` to generate a secret key. **A `SECRET_KEY` do not need to be wrapped in strings when placed in your `.env` file.**
 
-**Note 2:** An example of a `DATABASE_URL` would be: `postgresql://sqlalchemy_test:password@localhost/sqlalchemy_test`, where:
-- scheme: postgres
-- username: sqlalchemy_test
-- password: password
-- server name: localhost
-- database name: sqlalchemy_test
+**Note 2:** An example of a `DATABASE_URL` would be:
+```
+  postgresql://sqlalchemy_test:password@localhost/sqlalchemy_test
+  \________/   \_____________/ \______/ \_______/ \_____________/
+      |              |            |         |            |
+   scheme        username     password  server_name  database_name
+```
 
 #### `.flaskenv`
 ```python
