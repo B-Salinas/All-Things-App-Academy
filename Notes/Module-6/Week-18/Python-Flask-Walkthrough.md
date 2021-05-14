@@ -114,7 +114,7 @@ For the sake of simplicity, **all of our routes will be handled in the `app/__in
 
 ## Reconfiguring `app` directory
 
-#### `__init__.py`
+### `__init__.py`
 
 **Previous Setup**
 ```python
@@ -138,7 +138,7 @@ db.init_app(app)
 Migrate(app, db)
 ```
 
-#### `forms.py`
+### `forms.py`
 
 **Previous Setup**
 ```python 
