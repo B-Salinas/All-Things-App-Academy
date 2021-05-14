@@ -153,7 +153,7 @@ class Form_Name(FlaskForm):
   # etc...
 ```
 **New Setup**
-```
+```python
 from flask_wtf import FlaskForm
 from wtforms.fields import (StringField, IntegerField, TextAreaField, SubmitField)
 from wtforms.validators import DataRequired
