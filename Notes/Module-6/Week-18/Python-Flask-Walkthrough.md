@@ -30,5 +30,9 @@ pipenv install «dependency_name»
 
 And for our convenience: 
 ```zsh
-pipenv install 
+pipenv install pytest pycodestyle pylint rope flask flask-sqlalchemy alembic flask-migrate python-dotenv psycopg2-binary sqlalchemy wtforms flask-wtf
 ```
+
+Activate your virtual environment using `pipenv shell` in your terminal!
+
+
