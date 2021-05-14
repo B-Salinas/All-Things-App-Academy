@@ -41,10 +41,17 @@ Once you've done that, activate your virtual environment using `pipenv shell` in
 ```python
 FLASK_ENV=development
 SECRET_KEY=«generate_secret_key»
-DATABASE_URL= ...grab this from the instructions...
+DATABASE_URL=«scheme»://«username»:«password»@«server_name»/«database_name»
 ```
 
-**Note:** To generate a `SECRET_KEY`, type in `node` into your terminal. You will be welcomed into the Node.js Enviroment. Use `require("crypto").randomBytes(32).toString("hex");` to generate a secret key. **`SECRET_KEY`s do not need to be wrapped in strings when placed in your `.env` file.**
+**Note 1:** To generate a `SECRET_KEY`, type in `node` into your terminal. You will be welcomed into the Node.js Enviroment. Use `require("crypto").randomBytes(32).toString("hex");` to generate a secret key. **A `SECRET_KEY` do not need to be wrapped in strings when placed in your `.env` file.**
+
+**Note 2:** An example of a `DATABASE_URL` would be: `postgresql://sqlalchemy_test:password@localhost/sqlalchemy_test`, where:
+- scheme: postgres
+- username: sqlalchemy_test
+- password: password
+- server name: localhost
+- database name: sqlalchemy_test
 
 #### `.flaskenv`
 ```python
