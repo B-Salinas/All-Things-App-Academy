@@ -37,7 +37,7 @@ Once you've done that, activate your virtual environment using `pipenv shell` in
 
 # Setting up `.env` environment
 
-#### `.env`
+### `.env`
 ```python
 FLASK_ENV=development
 SECRET_KEY=«generate_secret_key»
@@ -54,7 +54,7 @@ DATABASE_URL=«scheme»://«username»:«password»@«server_name»/«database_n
    scheme        username     password  server_name  database_name
 ```
 
-#### `.flaskenv`
+### `.flaskenv`
 ```python
 FLASK_APP=app OR name of main file
 FLASK_ENV=development
@@ -62,14 +62,14 @@ FLASK_ENV=development
 
 # Setting up `app` directory
 
-#### `__init__.py`
+### `__init__.py`
 ```python
 from flask from Flask
 
 app = Flask(__name__)
 ```
 
-#### `config.py`
+### `config.py`
 ```python
 import os 
 from os import environ
@@ -81,7 +81,7 @@ class Configuration:
   SQLALCHEMY_TRACK_MODIFICATIONS = False
 ```
 
-#### `forms.py`
+### `forms.py`
 ```python 
 from flask import Flask
 import flask_wtf import FlaskForm
@@ -95,7 +95,7 @@ class ClassName(FlaskForm):
   # etc...
 ```
 
-#### `models.py`
+### `models.py`
 ```python
 from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
