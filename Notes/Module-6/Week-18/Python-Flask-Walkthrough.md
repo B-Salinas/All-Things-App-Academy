@@ -33,6 +33,54 @@ pipenv install «dependency_name»
 [comment]: <> (pipenv install pytest pycodestyle pylint rope flask flask-sqlalchemy alembic flask-migrate python-dotenv psycopg2-binary sqlalchemy wtforms flask-wtf)
 [comment]: <> (```)
 
-Activate your virtual environment using `pipenv shell` in your terminal!
+Once you've done that, activate your virtual environment using `pipenv shell` in your terminal!
 
+# Setting up `app` directory
 
+### `__init__.py`
+```python
+from flask from Flask
+
+app = Flask()
+```
+
+### `forms.py`
+```python 
+from flask import Flask
+import flask_wtf import FlaskForm
+from wtforms.fields import (StringField, etc...)
+from wtforms.validators import DataRequired
+
+v = [DataRequired()]
+
+class ClassName(FlaskForm):
+  input_field_name = StringField("label_goes_here", v)
+  # etc...
+```
+
+### `models.py`
+```python
+from flask_login import UserMixin
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import relationship
+
+db = SQLAlchemy()
+
+class Model_Name(db.Model, UserMixin):
+  __tablename__ = "table_name"
+  
+  column_name = db.Column(db.Type_Goes_here, other column data, etc...)
+  # etc...
+```
+
+### `config.py`
+```python
+import os 
+from os import environ
+from flask_sqlalchemy import SQLAlchemy
+
+class Configuration:
+  SECRET_KEY = os.environ.get('SECRET_KEY')
+  SQLALCHEMY_DATABASE_URI = environ.get('DATABASE_URL')
+  SQLALCHEMY_TRACK_MODIFICATIONS = False
+```
