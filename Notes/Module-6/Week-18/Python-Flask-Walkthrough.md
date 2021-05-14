@@ -113,12 +113,16 @@ class Model_Name(db.Model, UserMixin):
 # Route Requirements
 For the sake of simplicity, **all of our routes will be handled in the `app/__init__.py` file**. This will not be the case for future projects, so keep that in mind. 
 
-#### `app / __init__.py`
+## Setting up `app` directory
+
+#### `__init__.py`
 ```python
-# previously set up
+# previous set up
 from flask from Flask
 
 app = Flask(__name__)
+
+# ------------------------------------- #
 
 # new set up
 from flask from Flask, redirect, render_template
@@ -132,6 +136,7 @@ app.config.from_object(Configuration)
 db.init_app(app)
 Migrate(app, db)
 ```
+## Actual Routes in `app` directory
 
 #### `GET "/"`
 ```python
