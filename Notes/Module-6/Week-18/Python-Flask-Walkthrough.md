@@ -113,7 +113,7 @@ class Model_Name(db.Model, UserMixin):
 # Route Requirements
 For the sake of simplicity, **all of our routes will be handled in the `app/__init__.py` file**. This will not be the case for future projects, so keep that in mind. 
 
-## Setting up `app` directory
+## Reconfiguring `app` directory
 
 #### `__init__.py`
 ```python
