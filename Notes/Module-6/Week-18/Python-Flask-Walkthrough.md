@@ -233,7 +233,7 @@ def simple_data():
 @app.route("/simple-form-data")
 def simple_form_data():
   result = SimplePerson.query.filter(SimplePerson.name.like("M%")).all()
-  return render_template("simple_form_data.html", result=result)
+  return render_template("simple_form_data.html", result=result) # we create this template in "Creating `app / templates` directory"
 ```
 
 # Creating `app / templates` directory
