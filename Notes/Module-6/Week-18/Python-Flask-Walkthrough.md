@@ -114,11 +114,11 @@ class Model_Name(db.Model, UserMixin):
 # Route Requirements
 For the sake of simplicity, **all of our routes will be handled in the `app/__init__.py` file**. This will not be the case for future projects, so keep that in mind. 
 
-## Reconfiguring `app` directory
+## Updating `app` directory
 
 ### `__init__.py`
 
-**Previous Setup**
+Previous Setup:
 ```python
 # previous setup
 from flask from Flask
@@ -126,7 +126,7 @@ from flask from Flask
 app = Flask(__name__)
 ```
 
-**New Setup**
+New Setup:
 ```python
 from flask from Flask, redirect, render_template
 from flask-migrate import Migrate
@@ -142,7 +142,7 @@ Migrate(app, db)
 
 ### `forms.py`
 
-**Previous Setup**
+Previous Setup:
 ```python 
 from flask_wtf import FlaskForm
 from wtforms.fields import (StringField, etc...)
@@ -154,7 +154,7 @@ class Form_Name(FlaskForm):
   input_field_name = StringField("label_goes_here", v)
   # etc...
 ```
-**New Setup**
+New Setup:
 ```python
 from flask_wtf import FlaskForm
 from wtforms.fields import (StringField, IntegerField, TextAreaField, SubmitField)
@@ -184,3 +184,33 @@ def simple_form():
   form = SimpleForm()
   return render_template("simple_form.html", form=form) # we haven't created this template yet
 ```
+
+# Creating `app / templates` directory
+
+#### `main_page.html`
+```python
+<h1>Practice Assessment</h1>
+```
+
+This file will render when `GET "/"` is used.
+
+#### `simple_form.html`
+```python
+<form method="POST" action="/simple-form>
+  <div>
+    {{ form.name.label }} {{ form.name }}
+  </div>
+  <div>
+    {{ form.age.label }} {{ form.age }}
+  </div>
+  <div>
+    {{ form.bio.label }} {{ form.bio }}
+  </div>
+  <div>
+    {{ form.submit }}
+  </div>
+</form>
+```
+
+
+This file will render when `GET "/simple-form"` is used.
