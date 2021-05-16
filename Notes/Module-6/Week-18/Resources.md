@@ -9,5 +9,8 @@
 - [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
 - [WTForms](https://wtforms.readthedocs.io/en/2.3.x/)
 
+# Videos
+- [Flask Practice Assessment Walkthrough](https://drive.google.com/file/d/1d9cMysgeOUxux4W8KmIhztZ7FyRTNEga/view)
+
 # Other
 - [Week 18 Kahoot!](https://create.kahoot.it/details/c2651dc0-8582-4837-94d4-32f58fbcd375)
