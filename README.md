@@ -214,6 +214,11 @@ Notes
 
 # Other
 
+#### Checks Your Current Environment
+```zsh
+curl -s https://raw.githubusercontent.com/appacademy/aa-setup-checker/master/run.sh | bash
+```
+
 #### Updating Brew in Terminal Command
 ```
 brew update  
