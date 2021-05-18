@@ -3,6 +3,7 @@
 
 # Videos
 - [Learn Docker in 12 minutes](https://www.youtube.com/watch?v=YFl2mCHdv24)
+- [Docker in 100 seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ)
 
 # Slides
 - [Docker Intro / Week 19 RoadMap](https://hackmd.io/@jpshafto/B1cX3WoId)
