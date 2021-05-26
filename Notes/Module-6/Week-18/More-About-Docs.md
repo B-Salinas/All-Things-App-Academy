@@ -7,7 +7,7 @@ Alembic is a lightweight database migration tool for usage with the SQLAlchemy D
 Flask-Migrate is an extension that configures Alembic in the proper way to work with your Flask and Flask-SQLAlchemy application. It handles SQLAlchemy database migrations for Flask applications using Alembic.
 
 ### [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
-A Flask extension of [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
+A Flask extension of [SQLAlchemy](https://docs.sqlalchemy.org/en/13/). It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common task
 
 ### [Flask-WTF](https://flask-wtf.readthedocs.io/en/stable/)
 A Flask extension of [WTForms](https://wtforms.readthedocs.io/en/2.3.x/)
