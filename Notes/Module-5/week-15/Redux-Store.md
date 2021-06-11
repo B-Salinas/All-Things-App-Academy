@@ -24,3 +24,5 @@ const store = createStore(reducer, preloadedState, enhancer);
 - `reducer` **(required)** - A reducing function that receives the store's current state and incoming action, determines how to update the store's state, and returns the next state (more on this in a moment).
 - `preloadedState` _(optional)_ - An object representing any application state that existed before the store was created.
 - `enhancer` _(optional)_ - A function that adds extra functionality to the store.
+
+[Redux Reading](https://open.appacademy.io/learn/js-py---jan-2021-cohort-1-online/week-15-jan-2021-cohort-1-online/store)
