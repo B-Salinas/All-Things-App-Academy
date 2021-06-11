@@ -1,0 +1,1 @@
+The **store** is the central element of Redux's architecture. It holds the global **state** of an application. The store is responsible for updating the global state via its **reducer**, broadcasting state updates via **subscription**, and listening for **actions** that tell it when to update the state.
