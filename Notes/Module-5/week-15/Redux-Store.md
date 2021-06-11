@@ -11,5 +11,5 @@ The store is responsible for:
 
 ### Store Methods
 - `getState()` - Returns the store's current state.
-- `dispatch(_action_)` - Passes an action into the store's reducer telling it what information to update.
-- `subscribe(_callback_)` - Registers a callback to be triggered whenever the store updates. Returns a function, which when invoked, unsubscribes the callback function from the store.
+- `dispatch(action)` - Passes an action into the store's reducer telling it what information to update.
+- `subscribe(callback)` - Registers a callback to be triggered whenever the store updates. Returns a function, which when invoked, unsubscribes the callback function from the store.
