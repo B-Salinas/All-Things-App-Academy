@@ -37,4 +37,18 @@ An action is a plain old JavaScript object with a `type` property. Actions conta
 A function is pure if its behavior depends only on its arguments and has no side effects -- this means the function can't depend on the value of any variables that aren't passed into it as arguments and it can't alter the state of the program / any variable existing outside itself. 
 - Simply takes in arguments and returns a value. 
 
+**Reducer**    
+A reducer is a function that is called each time an action is dispatched. The reducer receives an action and the current state as arguments and returns an updated state. 
+- Redux reducers are required to be pure functions of the dispatched action and the current state -- this makes their behavior very predictable and allows their effects to potentially be reversed. 
 
+**Middleware**  
+An optional component of Redux that allows custom responses to dispatched actions. When an action is dispatched, it passes through each middleware that has been added to the state. The middleware can take some action in response and choose whether or not to pass the action on down the chain. 
+- The middleware actually replaces the dispatch method of the store with a customized version. The most common use of middleware is to dispatch asynchronous requests to a server.
+
+**Redux DevTools**  
+The Redux DevTools can be added as a middleware to any Redux project and allow you to look back through history of the state and toggle past actions on and off to see a live recalculation of the state. This ability to revert to a previous state is what is meant by "time travel".
+
+**Thunks**  
+Thunks are an alternative approach to the traditional approach to middleware. In Redux, a thunk action creator returns a function rather than an object. Thunks are most commmonly used to make asynchronous API requests.
+
+![Reducer Process](reducer.gif)
