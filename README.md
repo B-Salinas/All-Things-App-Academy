@@ -234,3 +234,8 @@ nvm --version
 ~should be 0.35.3~  
 nvm install --lts 
 ```
+
+#### Updating Heroku Everything
+```
+heroku pg:reset -a ygo-da-deck-builder --confirm ygo-da-deck-builder && heroku run -a ygo-da-deck-builder flask db upgrade && heroku run -a ygo-da-deck-builder flask seed all
+```
