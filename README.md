@@ -239,3 +239,33 @@ nvm install --lts
 ```
 heroku pg:reset -a ygo-da-deck-builder --confirm ygo-da-deck-builder && heroku run -a ygo-da-deck-builder flask db upgrade && heroku run -a ygo-da-deck-builder flask seed all
 ```
+
+#### Putting this here
+W14D2
+React Basics & React Router
+https://vimeo.com/manage/videos/536537238
+EOD:
+https://vimeo.com/536583505/ef78983a68
+W14D3
+Basic Hooks
+https://vimeo.com/536971788/8682985dc7
+EOD
+https://vimeo.com/537041794/a7b29eda68
+W14D4
+React Context w/Miah
+https://vimeo.com/537373618/5473820771
+EOD
+https://vimeo.com/537511834/5341a5ca4c
+W15D1
+Class Component Lecture:
+https://vimeo.com/538903882/33d96ea898
+EOD: 
+https://vimeo.com/538923936/7530933ba6
+W15D2
+React-Redux
+https://vimeo.com/539378173/2a68ed6b17
+EOD:
+https://vimeo.com/539413799/aa809411cb
+W15D3
+W15D4
+Fullstack Dataflow: https://vimeo.com/540417329/29282a23aa
