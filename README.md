@@ -342,3 +342,6 @@ when submitting a form(walking through data flow)
     - `const pokeTypes = useSelector(state => state.pokemon.types);`
   - once component is triggered to re-render
     - all the react stuff happens again
+
+#### keep the resources coming
+https://github.com/gootieno/thunks-lecture
