@@ -271,6 +271,44 @@ W15D4
 Fullstack Dataflow: https://vimeo.com/540417329/29282a23aa
 
 #### more things
+docs: https://react-redux.js.org/api/hooks
+useSelector
+  - takes in a callback function as an argument
+    - that callback receives the current "state" that your redux store is managing
+    - the return value here is what 
+  - returns the effect of the callback(return value of cb)
+useDispatch
+  - takes in no arguments(normally)
+  - returns a dispatch function(object)
+  - we only need this to later be able to send things to our store
+reducers
+  - just functions
+  - input: 1st: state, 2nd: the argument we passed to our dispatch function
+    - 1st argument of state is the previous reducer function return value
+  - return: what the slice of state that this reducer is managing should look like
+    - the structure of this object/array should stay consistent
+  - the combined output of all our reducers creates the combo object that represents our global state
+state management library on the frontend
+redux cycle steps
+  setup:
+    - create a store(single source of data truth on front end) - configureStore - usually in a store.js file
+    - write reducer functions(determining the structure of what our store looks like)
+    - install react-redux package
+      - useSelector, useDispatch hooks
+    - Provider component around all parts of our app that will need access to store
+  implementation(start from a component):
+  - seeing content on the page
+    - React- component gets rendered
+      - react will request(from store) information this component needs - useSelector 
+    - once it has the info from store, will then render on page
+  - changing content on the page
+    - need access to the dispatch
+      - `  const dispatch = useDispatch();`
+      - dispatch has 1 job: send things to the redux store(hits reducers as 2nd argument)
+    - dispatch()
+      - the info passed as an argument to dispatch, is the argument that will be passed to all my reducers in the future
+
+
 thunk: 
   - ensure that only pojo get sent to our reducers(store)
 useSelector
