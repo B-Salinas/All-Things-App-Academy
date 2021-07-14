@@ -269,3 +269,38 @@ https://vimeo.com/539413799/aa809411cb
 W15D3
 W15D4
 Fullstack Dataflow: https://vimeo.com/540417329/29282a23aa
+
+#### more things
+thunk: 
+  - ensure that only pojo get sent to our reducers(store)
+useSelector
+  - input argument: callback function
+    - that input argument will be the global "state" present in our app
+  - whenever we see useSelector, it's because we're trying to access information from our store
+useDispatch()
+  - main function is to get access to dispatch
+when submitting a form(walking through data flow)
+  - clicking "submit" button
+  - invokes our handleSubmit function(written in this component)
+  - we use the dispatch, and the `createPokemon` thunk action creator
+    - `dispatch(createPokemon(payload))`
+    - we are dispatching(to our store) the return value of `createPokemon(payload)`
+      - this happens to be another function
+  - because we tried to dispatch a function to our store, thunk sees this and instead of allowing function through to our store, it redirects
+    - redirects: calling the function that tried to go to store and passing `dispatch` as argument to that function
+  - this function that thunk is going to invoke and pass the `dispatch` argument to is typically our BE fetch requests
+  - we make the request to our BE service
+    - it does stuff with our database
+      - save a pokemon
+    - returns a response with results of trip to DB
+  - we use the dispatch that thunk passed as argument to this function
+    - we dispatch the return value of the action creator
+      - `dispatch(addOnePokemon(pokemon))`
+    - this action object(return vlaue of action creator) gets sent to our reducers
+  - our reducers see the action object and decide if they know what to do with it
+    - in this case: it adds the one pokemon we just created to our global state
+    - return the new slice of state wih the new pokemon added
+  - each component that is utilizing some part of our global state, a re-render is triggered by redux(not us) whenever our global state changes/updates
+    - `const pokeTypes = useSelector(state => state.pokemon.types);`
+  - once component is triggered to re-render
+    - all the react stuff happens again
